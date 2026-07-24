@@ -59,37 +59,46 @@ export default function Fleet() {
                 className="bg-white rounded-card shadow-soft hover:shadow-medium border border-slate-100 p-6 flex flex-col justify-between min-w-[290px] sm:min-w-[340px] lg:min-w-0 snap-center shrink-0 transition-all duration-300"
               >
                 <div>
-                  {/* Stylized premium schematic vector box with black price badge */}
-                  <div className="w-full h-48 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl mb-6 relative overflow-hidden flex flex-col items-center justify-center p-6 text-white/90">
-                    {/* Decorative abstract mesh overlay */}
-                    <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(249,115,22,0.12),transparent)] pointer-events-none" />
-                    
+                  <div className="w-full h-48 bg-slate-100 rounded-2xl mb-6 relative overflow-hidden flex flex-col items-center justify-center text-white/90">
                     {/* Black Price Badge (top-left) */}
-                    <div className="absolute top-3 left-3 bg-black text-white text-xs font-bold px-3 py-1.5 rounded-md shadow-md z-10">
+                    <div className="absolute top-3 left-3 bg-black text-white text-xs font-bold px-3 py-1.5 rounded-md shadow-md z-20">
                       {vehicle.price}
                     </div>
 
-                    <div className="absolute top-3 right-3 flex gap-1.5">
+                    <div className="absolute top-3 right-3 flex gap-1.5 z-20">
                       {vehicle.tags.slice(0, 1).map((tag) => (
-                        <span key={tag} className="text-[10px] font-bold bg-white/10 backdrop-blur-md text-accent-300 border border-white/10 px-2 py-0.5 rounded-full">
+                        <span key={tag} className="text-[10px] font-bold bg-black/40 backdrop-blur-md text-accent-300 border border-white/10 px-2 py-0.5 rounded-full">
                           {tag}
                         </span>
                       ))}
                     </div>
 
-                    {/* stylized outline/icon vector text representation */}
-                    <div className="text-center">
-                      <div className="text-[10px] uppercase font-bold tracking-widest text-slate-400 mb-1">Premium Rental</div>
-                      <div className="text-xl font-bold font-heading text-white">
-                        {vehicle.name.split(" ").slice(1).join(" ") || vehicle.name}
+                    {vehicle.imageName ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={`/${vehicle.imageName}`}
+                        alt={vehicle.name}
+                        className="w-full h-full object-contain p-2"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-slate-900 to-indigo-950 flex flex-col items-center justify-center p-6">
+                        {/* Decorative abstract mesh overlay */}
+                        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(249,115,22,0.12),transparent)] pointer-events-none" />
+                        {/* stylized outline/icon vector text representation */}
+                        <div className="text-center">
+                          <div className="text-[10px] uppercase font-bold tracking-widest text-slate-400 mb-1">Premium Rental</div>
+                          <div className="text-xl font-bold font-heading text-white">
+                            {vehicle.name.split(" ").slice(1).join(" ") || vehicle.name}
+                          </div>
+                          <div className="text-xs text-accent-400 font-medium mt-1">{vehicle.transmission} • {vehicle.fuel}</div>
+                        </div>
+                        {/* visual vector overlay graphic */}
+                        <div className="absolute bottom-4 flex items-center gap-1.5 text-[10px] text-slate-400 font-semibold bg-black/20 px-3 py-1 rounded-full border border-white/5">
+                          <Zap className="w-3.5 h-3.5 text-accent-500" />
+                          <span>Verified Partner Vehicle</span>
+                        </div>
                       </div>
-                      <div className="text-xs text-accent-400 font-medium mt-1">{vehicle.transmission} • {vehicle.fuel}</div>
-                    </div>
-                    {/* visual vector overlay graphic */}
-                    <div className="absolute bottom-4 flex items-center gap-1.5 text-[10px] text-slate-400 font-semibold bg-black/20 px-3 py-1 rounded-full border border-white/5">
-                      <Zap className="w-3.5 h-3.5 text-accent-500" />
-                      <span>Verified Partner Vehicle</span>
-                    </div>
+                    )}
                   </div>
 
                   {/* Vehicle Details */}
