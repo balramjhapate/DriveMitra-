@@ -1,7 +1,8 @@
 "use client";
 
 import { TESTIMONIALS } from "@/constants/faq";
-import { Star, Quote } from "lucide-react";
+import { Star } from "lucide-react";
+import GoogleIcon from "@/components/icons/GoogleIcon";
 import { motion } from "framer-motion";
 
 export default function Testimonials() {
@@ -64,7 +65,7 @@ export default function Testimonials() {
                         <Star key={i} className="w-4 h-4 fill-current" />
                       ))}
                     </div>
-                    <Quote className="w-8 h-8 text-slate-100" />
+                    <GoogleIcon className="w-5 h-5 opacity-90" />
                   </div>
 
                   <p className="text-slate-600 text-sm leading-relaxed mb-6 italic">

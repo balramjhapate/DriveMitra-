@@ -2,12 +2,13 @@
 
 import { ShieldCheck, Star, Car, Zap, Layers } from "lucide-react";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
+import GoogleIcon from "@/components/icons/GoogleIcon";
 import { motion } from "framer-motion";
 
 export default function TrustBar() {
   const badges = [
     { icon: ShieldCheck, title: "Verified Partners", desc: "100% trusted rental network" },
-    { icon: Star, title: "4.8 Google Rated", desc: "Highly loved by customers" },
+    { icon: GoogleIcon, title: "4.8 Google Rated", desc: "Highly loved by customers" },
     { icon: Car, title: "Well Maintained", desc: "Clean & sanitised vehicles" },
     { icon: WhatsAppIcon, title: "WhatsApp Support", desc: "Instant help when you need" },
     { icon: Zap, title: "Fast Booking", desc: "Confirm your ride in minutes" },

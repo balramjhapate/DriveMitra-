@@ -1,6 +1,7 @@
 import { siteConfig } from "@/config/site";
 import { Star, Mail, MapPin, Clock, Phone } from "lucide-react";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
+import GoogleIcon from "@/components/icons/GoogleIcon";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -36,7 +37,9 @@ export default function Footer() {
             India&apos;s premium car rental platform in Bhopal. Offering self-drive cars, verified chauffeurs, outstation cabs, and reliable airport pick-and-drop transfers with absolute transparent pricing.
           </p>
           {/* Trust Rating */}
-          <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 px-4 py-2.5 rounded-btn w-fit">
+          <div className="flex items-center gap-2.5 bg-slate-900 border border-slate-800 px-4 py-2.5 rounded-btn w-fit">
+            <GoogleIcon className="w-4 h-4 shrink-0" />
+            <div className="w-px h-3.5 bg-slate-800" />
             <div className="flex text-amber-400">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-current" />

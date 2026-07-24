@@ -4,6 +4,7 @@ import BookingForm from "@/components/forms/BookingForm";
 import { siteConfig } from "@/config/site";
 import { Phone, Star } from "lucide-react";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
+import GoogleIcon from "@/components/icons/GoogleIcon";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -31,13 +32,15 @@ export default function Hero() {
             transition={{ duration: 0.4 }}
             className="flex items-center gap-2 bg-white border border-slate-150 px-3.5 py-1.5 rounded-full shadow-soft mb-6"
           >
+            <GoogleIcon className="w-4 h-4 shrink-0" />
+            <div className="w-px h-3.5 bg-slate-200" />
             <div className="flex text-amber-400">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-3.5 h-3.5 fill-current" />
               ))}
             </div>
             <span className="text-primary-950 font-bold text-xs">
-              {siteConfig.rating} Google Rated Car Rental Agency in Bhopal
+              {siteConfig.rating} Rated on Google in Bhopal
             </span>
           </motion.div>
 
