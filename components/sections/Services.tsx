@@ -76,7 +76,7 @@ export default function Services() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-2 gap-3 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
           {SERVICES.map((service, index) => {
             const Icon = ICONS[service.id] ?? Car;
             const href = HREFS[service.id] ?? "#booking-form";
@@ -89,7 +89,7 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.06 }}
-                className={`group relative flex flex-col overflow-hidden rounded-[26px] p-8 transition-all duration-300 hover:-translate-y-1.5 ${
+                className={`group relative flex flex-col overflow-hidden rounded-2xl sm:rounded-[26px] p-4 sm:p-8 transition-all duration-300 hover:-translate-y-1.5 ${
                   featured
                     ? "border border-accent-300/70 bg-gradient-to-b from-accent-50/70 to-white shadow-medium"
                     : "border border-slate-200/80 bg-white shadow-soft hover:border-accent-200 hover:shadow-medium"
@@ -97,28 +97,28 @@ export default function Services() {
               >
                 {/* Top-right marker: badge on the featured card, index number elsewhere */}
                 {featured ? (
-                  <span className="absolute right-6 top-6 inline-flex items-center gap-1 rounded-full bg-accent-500 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow-glow">
-                    <Sparkles className="h-3 w-3" />
+                  <span className="absolute right-2 top-2 sm:right-6 sm:top-6 inline-flex items-center gap-0.5 sm:gap-1 rounded-full bg-accent-500 px-2 py-0.5 sm:px-3 sm:py-1 text-[8px] sm:text-[10px] font-bold uppercase tracking-wider text-white shadow-glow">
+                    <Sparkles className="h-2.5 w-2.5 sm:h-3 sm:w-3" />
                     Most Popular
                   </span>
                 ) : (
-                  <span className="absolute right-7 top-6 font-heading text-4xl font-bold text-slate-100 transition-colors duration-300 group-hover:text-accent-100">
+                  <span className="absolute right-3 top-3 sm:right-7 sm:top-6 font-heading text-xl sm:text-4xl font-bold text-slate-100 transition-colors duration-300 group-hover:text-accent-100">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                 )}
 
                 {/* Gradient icon tile */}
-                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-accent-400 to-accent-600 shadow-[0_10px_22px_-8px_rgba(249,115,22,0.6)] ring-1 ring-white/40 transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105">
-                  <Icon className="h-7 w-7 text-white" />
+                <div className="mb-3 sm:mb-6 flex h-10 w-10 sm:h-14 sm:w-14 items-center justify-center rounded-xl sm:rounded-2xl bg-gradient-to-br from-accent-400 to-accent-600 shadow-[0_10px_22px_-8px_rgba(249,115,22,0.6)] ring-1 ring-white/40 transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105">
+                  <Icon className="h-5 w-5 sm:h-7 sm:w-7 text-white" />
                 </div>
 
-                <h3 className="mb-3 font-heading text-xl font-bold text-primary-950">
+                <h3 className="mb-1.5 sm:mb-3 font-heading text-sm sm:text-xl font-bold text-primary-950">
                   {service.title}
                 </h3>
-                <p className="mb-6 text-sm leading-relaxed text-slate-600">{service.description}</p>
+                <p className="mb-3 sm:mb-6 text-[11px] sm:text-sm leading-normal sm:leading-relaxed text-slate-600">{service.description}</p>
 
                 {/* Features */}
-                <ul className="mb-8 space-y-3">
+                <ul className="hidden sm:block mb-8 space-y-3">
                   {service.features.map((feature, i) => (
                     <li
                       key={i}
@@ -136,14 +136,14 @@ export default function Services() {
                 <a
                   href={href}
                   onClick={(e) => scrollTo(e, href)}
-                  className={`mt-auto flex items-center justify-between gap-2 rounded-xl px-4 py-3 text-sm font-bold transition-all duration-300 ${
+                  className={`mt-auto flex items-center justify-between gap-1.5 sm:gap-2 rounded-lg sm:rounded-xl px-2.5 py-2 sm:px-4 sm:py-3 text-[10px] sm:text-sm font-bold transition-all duration-300 ${
                     featured
                       ? "bg-accent-500 text-white shadow-soft hover:bg-accent-600"
                       : "border border-slate-200 text-primary-900 group-hover:border-accent-500 group-hover:bg-accent-500 group-hover:text-white"
                   }`}
                 >
                   <span>{service.ctaText}</span>
-                  <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  <ArrowRight className="h-3 w-3 sm:h-4 sm:w-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
               </motion.div>
             );
