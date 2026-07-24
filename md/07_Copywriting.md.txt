@@ -1,0 +1,1093 @@
+# 07_Copywriting.md
+
+# Purpose
+
+This document defines the complete copywriting strategy for the entire website.
+
+The objective is NOT to write beautiful content.
+
+The objective is to maximize:
+
+- Google Ads Quality Score
+- Conversion Rate
+- User Trust
+- Average Session Duration
+- Lead Generation
+- Organic SEO Readability
+
+This copywriting system should work for:
+
+- Google Ads Traffic
+- Organic Search
+- Direct Traffic
+- WhatsApp Traffic
+- Facebook Ads
+- Instagram Ads
+- Future SEO Landing Pages
+
+---
+
+# Copywriting Philosophy
+
+Never write like a local business.
+
+Never write like AI.
+
+Never write like a salesman.
+
+Write like a premium travel-tech company.
+
+Tone should feel
+
+Professional
+
+Trustworthy
+
+Friendly
+
+Helpful
+
+Modern
+
+Premium
+
+Simple
+
+Human
+
+---
+
+# Writing Rules
+
+Every section should answer
+
+Why should I trust you?
+
+Why should I book today?
+
+Why should I choose you instead of others?
+
+How fast can I book?
+
+Will this process be easy?
+
+---
+
+# Tone of Voice
+
+Avoid
+
+❌ Cheap Marketing
+
+❌ Fake Urgency
+
+❌ Fake Reviews
+
+❌ Clickbait
+
+❌ Keyword Stuffing
+
+❌ ALL CAPS
+
+❌ Overpromising
+
+Use
+
+✅ Honest
+
+✅ Helpful
+
+✅ Clear
+
+✅ Short Sentences
+
+✅ Natural Language
+
+---
+
+# Brand Personality
+
+Think like
+
+Uber
+
+Airbnb
+
+Zoomcar
+
+Revv
+
+Not
+
+Traditional Taxi Company
+
+---
+
+# Hero Section
+
+This is the highest converting section.
+
+User decides within
+
+3–5 seconds
+
+whether to stay or leave.
+
+Everything important must appear above the fold.
+
+---
+
+# Hero Headline Rules
+
+H1 must
+
+Contain Primary Keyword
+
+Explain Service
+
+Build Trust
+
+Be Easy To Read
+
+Maximum
+
+10–14 words
+
+---
+
+# Hero Headline Variations
+
+## Version 1
+
+Self Drive Car Rental in Bhopal – Book Reliable Cars in Minutes
+
+---
+
+## Version 2
+
+Book Self Drive Cars & Taxi Services in Bhopal at Transparent Prices
+
+---
+
+## Version 3
+
+Rent Cars in Bhopal with Self Drive or Professional Driver
+
+---
+
+## Version 4
+
+Premium Self Drive Cars & Taxi Booking Across Bhopal
+
+---
+
+## Version 5
+
+Your Trusted Car Rental Partner in Bhopal
+
+---
+
+## Version 6
+
+Book Clean, Reliable Cars for Every Journey in Bhopal
+
+---
+
+## Version 7
+
+Need a Car Today?
+Book Self Drive or Driver Included Vehicles Instantly
+
+---
+
+## Version 8
+
+Drive Anywhere.
+Book Cars in Minutes.
+
+---
+
+# Hero Subheading
+
+Purpose
+
+Reduce customer hesitation.
+
+Explain value.
+
+---
+
+Example
+
+Choose from verified self-drive cars, taxis, airport transfers and outstation vehicles with quick booking, transparent pricing and dedicated customer support.
+
+---
+
+Alternative
+
+Book premium cars for local travel, airport pickup, weekend trips or outstation journeys with a fast and hassle-free booking experience.
+
+---
+
+# Trust Bar Copy
+
+Verified Rental Partners
+
+Transparent Pricing
+
+Well Maintained Cars
+
+Instant WhatsApp Support
+
+Fast Booking Process
+
+Multiple Vehicle Options
+
+---
+
+# Primary CTA
+
+Book Your Ride
+
+---
+
+Alternative CTA
+
+Book Now
+
+Reserve Your Car
+
+Check Availability
+
+Get Instant Quote
+
+Find My Car
+
+---
+
+# Secondary CTA
+
+Chat on WhatsApp
+
+---
+
+Alternative
+
+Talk To Our Team
+
+Get Quick Assistance
+
+Call Us Now
+
+---
+
+# Form Heading
+
+Check Availability
+
+---
+
+Alternative
+
+Book Your Vehicle
+
+---
+
+Alternative
+
+Get Instant Quote
+
+---
+
+# Form Description
+
+Fill in your travel details and our team will help you find the best available vehicle within minutes.
+
+---
+
+# Form Button
+
+Check Availability
+
+---
+
+Alternative
+
+Get Best Price
+
+Book Now
+
+Find My Vehicle
+
+---
+
+# Why Choose Us Heading
+
+Why Thousands of Customers Trust Us
+
+---
+
+Alternative
+
+Why Choose Our Car Rental Service
+
+---
+
+Alternative
+
+Book Smarter.
+Travel Better.
+
+---
+
+# Why Choose Us Cards
+
+Verified Rental Partners
+
+Every booking is fulfilled through trusted rental partners and verified vehicles.
+
+---
+
+Transparent Pricing
+
+No hidden surprises.
+Know what you're paying before confirming your booking.
+
+---
+
+Multiple Vehicle Choices
+
+Choose from hatchbacks, sedans, SUVs, MPVs and taxis depending on your travel needs.
+
+---
+
+Quick Booking
+
+Our booking process is simple, fast and optimized for mobile users.
+
+---
+
+Dedicated Support
+
+Need help before or after booking?
+Our support team is always ready to assist.
+
+---
+
+Reliable Service
+
+Every trip matters.
+We focus on timely communication and dependable service.
+
+---
+
+# Services Section Heading
+
+Choose the Right Service for Every Journey
+
+---
+
+# Service Cards
+
+## Self Drive Cars
+
+Enjoy complete flexibility with reliable self-drive vehicles for local travel, weekends and road trips.
+
+CTA
+
+Explore Cars
+
+---
+
+## Taxi With Driver
+
+Sit back and relax while experienced drivers take care of your journey.
+
+CTA
+
+Book Taxi
+
+---
+
+## Airport Pickup
+
+Professional airport pickup and drop services with timely arrivals.
+
+CTA
+
+Book Airport Transfer
+
+---
+
+## Outstation Trips
+
+Comfortable cars for family vacations, business trips and long-distance travel.
+
+CTA
+
+Plan Your Trip
+
+---
+
+## Local Rentals
+
+Flexible local packages for shopping, meetings, events and city travel.
+
+CTA
+
+Book Local Ride
+
+---
+
+# Fleet Section Heading
+
+Popular Vehicles Available
+
+---
+
+Vehicle Description Template
+
+Comfortable.
+
+Well Maintained.
+
+Ideal for family trips, airport travel and weekend getaways.
+
+Suitable for
+
+5–7 passengers depending on model.
+
+---
+
+Vehicle CTA
+
+Book This Vehicle
+
+---
+
+Alternative
+
+Check Availability
+
+---
+
+Continue…
+
+
+# 07_Copywriting.md
+
+---
+
+# Fleet Card CTA Library
+
+Primary
+
+Book Now
+
+---
+
+Alternative
+
+Reserve Vehicle
+
+---
+
+Alternative
+
+Check Availability
+
+---
+
+Alternative
+
+Request Quote
+
+---
+
+Alternative
+
+Book Instantly
+
+---
+
+# Fleet Card Labels
+
+Manual
+
+Automatic
+
+Petrol
+
+Diesel
+
+CNG
+
+7 Seater
+
+5 Seater
+
+SUV
+
+Premium
+
+Family Favorite
+
+Most Booked
+
+Best Value
+
+Weekend Special
+
+Airport Ready
+
+Outstation Ready
+
+---
+
+# Popular Searches Section
+
+Purpose
+
+Increase internal relevance.
+
+Target semantic keywords.
+
+Improve Google Ads Quality Score.
+
+Increase SEO topical authority.
+
+---
+
+Heading
+
+Popular Car Rental Services in Bhopal
+
+---
+
+Sub Heading
+
+Choose the right service for your travel requirements.
+
+---
+
+Search Cards
+
+Self Drive Cars
+
+Car Rental
+
+Taxi Service
+
+Airport Taxi
+
+Outstation Taxi
+
+Wedding Car
+
+Corporate Rental
+
+Monthly Rental
+
+Ertiga Rental
+
+SUV Rental
+
+Luxury Car Rental
+
+One Way Taxi
+
+Round Trip Taxi
+
+Family Trip Cars
+
+Weekend Rental
+
+---
+
+CTA
+
+View Service
+
+---
+
+# Service Area Heading
+
+Serving Across Bhopal
+
+---
+
+Sub Heading
+
+Quick vehicle availability across major residential, commercial and travel locations.
+
+---
+
+Location Cards
+
+MP Nagar
+
+New Market
+
+Habibganj
+
+Rani Kamlapati Railway Station
+
+Airport
+
+Arera Colony
+
+Kolar Road
+
+Hoshangabad Road
+
+Bawadia Kalan
+
+Bagsewaniya
+
+Ashima Mall
+
+BHEL
+
+Ayodhya Bypass
+
+Indrapuri
+
+Lalghati
+
+Shahpura
+
+Gulmohar
+
+Kohefiza
+
+Govindpura
+
+Chuna Bhatti
+
+Future
+
+Indore
+
+Ujjain
+
+Sehore
+
+Jabalpur
+
+---
+
+# Booking Process
+
+Heading
+
+Book Your Ride In Four Simple Steps
+
+---
+
+Step 1
+
+Share Your Requirement
+
+Tell us your travel plan.
+
+Destination
+
+Date
+
+Vehicle
+
+---
+
+Step 2
+
+Get Best Available Vehicle
+
+Our team checks availability from verified partners.
+
+---
+
+Step 3
+
+Confirm Booking
+
+Receive pricing and confirmation.
+
+---
+
+Step 4
+
+Pickup & Enjoy
+
+Collect your vehicle or wait for pickup if driver service is selected.
+
+---
+
+# Booking Benefits
+
+Fast Response
+
+Transparent Communication
+
+Verified Vehicles
+
+Dedicated Support
+
+Multiple Options
+
+---
+
+# Customer Reviews Heading
+
+What Our Customers Say
+
+---
+
+Alternative
+
+Trusted By Happy Travelers
+
+---
+
+Review Style
+
+Every review should include
+
+Customer Name
+
+City
+
+Vehicle Used
+
+Rating
+
+Travel Purpose
+
+Example
+
+★★★★★
+
+Booked an Ertiga for a family trip.
+
+The booking process was smooth and the vehicle was clean.
+
+Highly recommended.
+
+---
+
+Example
+
+★★★★★
+
+Airport pickup was perfectly on time.
+
+Professional service and clear communication.
+
+---
+
+Example
+
+★★★★★
+
+Booked a self-drive car for a weekend trip.
+
+Everything was exactly as promised.
+
+---
+
+# FAQ Heading
+
+Frequently Asked Questions
+
+---
+
+Question
+
+How do I book a car?
+
+Answer
+
+Simply submit your travel details through our booking form, WhatsApp or phone call. Our team will confirm vehicle availability and complete your booking.
+
+---
+
+Question
+
+Do you provide self drive cars?
+
+Answer
+
+Yes. Self-drive cars are available depending on vehicle availability and document verification.
+
+---
+
+Question
+
+Do you also provide taxi with driver?
+
+Answer
+
+Yes. We offer both self-drive and chauffeur-driven vehicles.
+
+---
+
+Question
+
+Which documents are required?
+
+Answer
+
+Required documents depend on the selected service and vehicle category. Our booking team will guide you during confirmation.
+
+---
+
+Question
+
+Do you provide airport pickup?
+
+Answer
+
+Yes. Airport pickup and drop services are available.
+
+---
+
+Question
+
+Can I book for outstation travel?
+
+Answer
+
+Yes. We provide vehicles for local, outstation and long-distance travel.
+
+---
+
+Question
+
+Which vehicles are available?
+
+Answer
+
+Vehicle availability depends on booking dates. Popular options include hatchbacks, sedans, SUVs and family vehicles.
+
+---
+
+Question
+
+How quickly will I receive confirmation?
+
+Answer
+
+Our team aims to respond as quickly as possible during business hours.
+
+---
+
+# Final CTA Section
+
+Heading
+
+Ready To Book Your Next Ride?
+
+---
+
+Sub Heading
+
+Tell us your travel requirements and we'll help you find the right vehicle at the best available price.
+
+---
+
+Primary CTA
+
+Book Your Ride
+
+---
+
+Secondary CTA
+
+Talk On WhatsApp
+
+---
+
+Third CTA
+
+Call Now
+
+---
+
+# Footer Heading
+
+Everything You Need In One Place
+
+---
+
+Footer Navigation
+
+Home
+
+Self Drive
+
+Taxi Service
+
+Airport Transfer
+
+Outstation
+
+Fleet
+
+About
+
+FAQ
+
+Contact
+
+Privacy Policy
+
+Terms & Conditions
+
+---
+
+# WhatsApp Auto Message
+
+Hello,
+
+I would like to book a vehicle.
+
+Travel Date:
+
+Pickup Location:
+
+Destination:
+
+Preferred Vehicle:
+
+Number of Passengers:
+
+Please share availability.
+
+---
+
+# Form Success Message
+
+Thank you.
+
+Your booking request has been received.
+
+Our team will contact you shortly.
+
+---
+
+# Error Messages
+
+Please enter your name.
+
+Please enter a valid mobile number.
+
+Please select a service.
+
+Please select a travel date.
+
+Something went wrong.
+
+Please try again.
+
+---
+
+# Empty States
+
+No vehicles available for the selected date.
+
+Please contact our team for alternate options.
+
+---
+
+# Loading Messages
+
+Checking availability...
+
+Finding the best vehicle...
+
+Preparing your quotation...
+
+Almost done...
+
+---
+
+# Microcopy
+
+100% Mobile Friendly
+
+Instant WhatsApp Support
+
+Verified Booking Assistance
+
+Transparent Communication
+
+Quick Response
+
+No Hidden Process
+
+Reliable Travel Partner
+
+---
+
+# SEO Copywriting Rules
+
+One H1 only.
+
+Natural keyword placement.
+
+Never force keywords.
+
+Every section should answer one search intent.
+
+Use conversational language.
+
+Avoid repetitive sentences.
+
+Maintain semantic relevance.
+
+Write for humans first and search engines second.
+
+---
+
+# Google Ads Copywriting Rules
+
+Headline should match landing page H1.
+
+CTA should remain consistent.
+
+Message match should be maintained.
+
+Benefits before features.
+
+Trust before pricing.
+
+Clear action above the fold.
+
+---
+
+# Copywriting Quality Checklist
+
+✓ Human sounding
+
+✓ Mobile readable
+
+✓ Premium tone
+
+✓ No keyword stuffing
+
+✓ Trust focused
+
+✓ Benefit driven
+
+✓ CTA every major section
+
+✓ Easy to skim
+
+✓ Short paragraphs
+
+✓ SEO friendly
+
+✓ Conversion focused
+
+---
+
+END OF 07_Copywriting.md

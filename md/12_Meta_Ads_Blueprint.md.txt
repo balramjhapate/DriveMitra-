@@ -1,0 +1,853 @@
+# 12_Meta_Ads_Blueprint.md
+
+# Purpose
+
+This document defines the complete Meta Ads (Facebook + Instagram) strategy for the Car Rental platform.
+
+The objective is NOT to generate likes or followers.
+
+The objective is
+
+- High Quality Leads
+- WhatsApp Conversations
+- Instant Bookings
+- Low Cost Per Lead
+- Brand Awareness
+- Retargeting
+- Repeat Customers
+
+This blueprint is designed for
+
+- Facebook
+- Instagram
+- Messenger
+- WhatsApp
+- Meta Advantage+
+
+---
+
+# Business Objectives
+
+Primary
+
+Generate Booking Leads
+
+---
+
+Secondary
+
+WhatsApp Conversations
+
+---
+
+Third
+
+Phone Calls
+
+---
+
+Fourth
+
+Brand Recall
+
+---
+
+# Funnel Strategy
+
+Cold Audience
+
+↓
+
+Awareness Ads
+
+↓
+
+Traffic
+
+↓
+
+Landing Page
+
+↓
+
+Lead
+
+↓
+
+Retargeting
+
+↓
+
+Booking
+
+↓
+
+Repeat Customer
+
+---
+
+# Campaign Structure
+
+Campaign 01
+
+Lead Generation
+
+---
+
+Campaign 02
+
+WhatsApp
+
+---
+
+Campaign 03
+
+Traffic
+
+---
+
+Campaign 04
+
+Retargeting
+
+---
+
+Campaign 05
+
+Video Views
+
+---
+
+Campaign 06
+
+Engagement
+
+---
+
+Campaign 07
+
+Advantage+ (Future)
+
+---
+
+# Campaign 01
+
+Lead Generation
+
+Objective
+
+Instant Form
+
+Landing Page
+
+Optimization
+
+Leads
+
+CTA
+
+Book Now
+
+---
+
+Campaign 02
+
+WhatsApp
+
+Objective
+
+Conversations
+
+CTA
+
+Send WhatsApp Message
+
+Goal
+
+Direct Booking
+
+---
+
+Campaign 03
+
+Traffic
+
+Objective
+
+Landing Page Visits
+
+Optimization
+
+Landing Page Views
+
+---
+
+Campaign 04
+
+Retargeting
+
+Audience
+
+Website Visitors
+
+WhatsApp Clickers
+
+Video Viewers
+
+Instagram Engagers
+
+Facebook Engagers
+
+Lead Form Opened
+
+Lead Form Not Submitted
+
+---
+
+Campaign 05
+
+Video
+
+Purpose
+
+Brand Trust
+
+Show
+
+Fleet
+
+Office
+
+Booking Process
+
+Customer Experience
+
+---
+
+# Audience Targeting
+
+Primary
+
+Bhopal
+
+Radius
+
+30 km
+
+---
+
+Age
+
+21–50
+
+---
+
+Gender
+
+All
+
+---
+
+Languages
+
+Hindi
+
+English
+
+---
+
+Interests
+
+Travel
+
+Road Trips
+
+Self Drive Cars
+
+Car Rental
+
+Taxi
+
+Airport
+
+Family Travel
+
+Business Travel
+
+Tourism
+
+Hotels
+
+Airlines
+
+Uber
+
+Ola
+
+Zoomcar
+
+Revv
+
+MakeMyTrip
+
+Goibibo
+
+Yatra
+
+---
+
+Behaviors
+
+Frequent Travelers
+
+Online Buyers
+
+Business Travelers
+
+Weekend Travelers
+
+---
+
+# Custom Audiences
+
+Website Visitors
+
+Instagram Engagers
+
+Facebook Engagers
+
+WhatsApp Clickers
+
+Video Viewers
+
+Lead Forms
+
+Customer List
+
+---
+
+# Lookalike Audiences
+
+1%
+
+2%
+
+5%
+
+Future
+
+Customer Database
+
+Booked Users
+
+High Value Customers
+
+---
+
+# Creative Strategy
+
+Never copy competitors.
+
+Create original creatives based on
+
+Customer Problems
+
+↓
+
+Solutions
+
+↓
+
+Benefits
+
+↓
+
+Trust
+
+↓
+
+Call To Action
+
+---
+
+# Creative Types
+
+Single Image
+
+Carousel
+
+Short Video
+
+Reels
+
+Stories
+
+Collection
+
+Future
+
+UGC
+
+Customer Testimonials
+
+Behind The Scenes
+
+---
+
+# Messaging Angles
+
+Angle 1
+
+Need A Car Today?
+
+---
+
+Angle 2
+
+Weekend Road Trip
+
+---
+
+Angle 3
+
+Airport Pickup
+
+---
+
+Angle 4
+
+Family Vacation
+
+---
+
+Angle 5
+
+Business Travel
+
+---
+
+Angle 6
+
+Transparent Pricing
+
+---
+
+Angle 7
+
+Verified Rental Partners
+
+---
+
+Angle 8
+
+Instant Booking
+
+---
+
+Angle 9
+
+Multiple Vehicle Options
+
+---
+
+# Image Rules
+
+Real Photography
+
+Indian Audience
+
+Premium Editing
+
+No Fake AI Faces
+
+Natural Lighting
+
+Consistent Colors
+
+Clean Background
+
+---
+
+# Video Rules
+
+Length
+
+15–30 Seconds
+
+---
+
+First 3 Seconds
+
+Strong Hook
+
+---
+
+Show
+
+Cars
+
+People
+
+Office
+
+Booking
+
+Road Trip
+
+Support
+
+---
+
+Always End With
+
+Book Now
+
+WhatsApp
+
+Call
+
+---
+
+# Ad Copy Formula
+
+Problem
+
+↓
+
+Solution
+
+↓
+
+Benefit
+
+↓
+
+Trust
+
+↓
+
+CTA
+
+---
+
+Example Structure
+
+Need a reliable self-drive car in Bhopal?
+
+Choose from verified vehicles with quick booking and transparent pricing.
+
+Book today through WhatsApp or our website.
+
+---
+
+# Headline Ideas
+
+Book Self Drive Cars
+
+Rent A Car Today
+
+Airport Taxi Available
+
+Book Ertiga Today
+
+Need A Taxi?
+
+Weekend Trip?
+
+Corporate Car Rental
+
+Premium Vehicles
+
+Verified Partners
+
+Quick Booking
+
+---
+
+# CTA Library
+
+Book Now
+
+Send WhatsApp Message
+
+Learn More
+
+Contact Us
+
+Call Now
+
+Get Quote
+
+---
+
+# Placements
+
+Facebook Feed
+
+Instagram Feed
+
+Stories
+
+Reels
+
+Explore
+
+Messenger
+
+Audience Network (optional)
+
+---
+
+# Budget Strategy
+
+Cold Audience
+
+60%
+
+Retargeting
+
+25%
+
+Brand
+
+15%
+
+Review after
+
+14 Days
+
+30 Days
+
+60 Days
+
+---
+
+# Optimization
+
+Highest CTR
+
+↓
+
+Highest Landing Page Views
+
+↓
+
+Highest Leads
+
+↓
+
+Lowest CPL
+
+---
+
+# Meta Pixel Events
+
+PageView
+
+ViewContent
+
+Lead
+
+Contact
+
+Phone Click
+
+WhatsApp Click
+
+Vehicle Click
+
+Booking Form Started
+
+Booking Form Completed
+
+---
+
+# Event Priority
+
+Lead
+
+Highest
+
+---
+
+WhatsApp
+
+Second
+
+---
+
+Phone
+
+Third
+
+---
+
+Vehicle Click
+
+Fourth
+
+---
+
+# Retargeting Flow
+
+Visited Website
+
+↓
+
+Didn't Submit Form
+
+↓
+
+Show Trust Ad
+
+↓
+
+Visited Again
+
+↓
+
+WhatsApp Ad
+
+↓
+
+Lead
+
+↓
+
+Booking
+
+---
+
+# Content Calendar
+
+Monday
+
+Self Drive
+
+Tuesday
+
+Taxi
+
+Wednesday
+
+Road Trip
+
+Thursday
+
+Customer Review
+
+Friday
+
+Fleet
+
+Saturday
+
+Weekend Offer
+
+Sunday
+
+Travel Inspiration
+
+---
+
+# KPIs
+
+CTR
+
+CPC
+
+CPM
+
+CPL
+
+Leads
+
+WhatsApp
+
+Phone Calls
+
+Landing Page Views
+
+Video Views
+
+Frequency
+
+ROAS (Future)
+
+---
+
+# Monthly Optimization
+
+Pause Low CTR Ads
+
+Create New Creatives
+
+Refresh Images
+
+Refresh Videos
+
+Test Headlines
+
+Test Primary Text
+
+Test CTA
+
+Review Heatmaps
+
+Review Landing Page
+
+Review Form Drop-Off
+
+---
+
+# Future Expansion
+
+Advantage+
+
+Dynamic Creative
+
+Catalog Ads
+
+Instant Experience
+
+UGC Campaigns
+
+Influencer Campaigns
+
+Automated Rules
+
+CRM Sync
+
+Offline Conversions
+
+---
+
+# Meta Ads Checklist
+
+✓ Pixel Installed
+
+✓ Conversion API Ready (Future)
+
+✓ Custom Audiences
+
+✓ Lookalikes
+
+✓ Original Creatives
+
+✓ Mobile First
+
+✓ WhatsApp Connected
+
+✓ Landing Page Optimized
+
+✓ Fast Loading
+
+✓ Events Verified
+
+✓ Weekly Optimization
+
+✓ Monthly Creative Refresh
+
+---
+
+END OF 12_Meta_Ads_Blueprint.md

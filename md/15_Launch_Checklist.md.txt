@@ -1,0 +1,527 @@
+# 15_Launch_Checklist.md
+
+# Purpose
+
+This document is the final production checklist before launching the website and running Google Ads.
+
+The objective is simple:
+
+**Launch once. Launch correctly.**
+
+Every item below should be verified before spending money on advertisements.
+
+---
+
+# Phase 1 — Business Readiness
+
+## Brand
+
+- Brand Name Finalized
+- Logo Finalized
+- Favicon Ready
+- Brand Colors Locked
+- Typography Locked
+- WhatsApp Number Active
+- Call Number Active
+- Business Email Active
+- Domain Purchased
+- SSL Enabled
+
+---
+
+## Business Information
+
+- Address Verified
+- Working Hours Updated
+- Service Areas Verified
+- Google Business Profile Ready
+- Social Links Added
+- Privacy Policy Added
+- Terms & Conditions Added
+- Refund Policy Added (if applicable)
+
+---
+
+# Phase 2 — UI / UX
+
+## Homepage
+
+- Hero Section Perfect
+- CTA Visible
+- Form Above Fold
+- Sticky Header
+- Sticky Mobile CTA
+- Responsive Images
+- Smooth Animations
+- No Layout Shift
+
+---
+
+## Mobile
+
+- All Buttons Reachable
+- Form Easy to Fill
+- Tap Targets 44px+
+- Fast Loading
+- No Horizontal Scroll
+- Menu Works Properly
+
+---
+
+## Tablet
+
+- Layout Verified
+- Cards Properly Aligned
+- Images Responsive
+
+---
+
+## Desktop
+
+- Proper Spacing
+- Proper Alignment
+- Hover Effects
+- Large Screens Tested
+
+---
+
+# Phase 3 — Content
+
+- Grammar Checked
+- No Placeholder Text
+- No Lorem Ipsum
+- No AI Generated Feel
+- Human Tone
+- SEO Optimized
+- CTA Consistency
+- FAQs Verified
+- Contact Details Correct
+
+---
+
+# Phase 4 — Images
+
+- Hero Image Optimized
+- Fleet Images Optimized
+- Icons SVG
+- WebP Images
+- ALT Text Added
+- SEO File Names
+- Lazy Loading Enabled
+- Responsive Sizes
+
+---
+
+# Phase 5 — Forms
+
+Lead Form
+
+- Name Validation
+- Phone Validation
+- Date Validation
+- Required Fields
+- Error Messages
+- Success Message
+- WhatsApp Redirect (if configured)
+
+---
+
+# Phase 6 — Technical SEO
+
+- Meta Title
+- Meta Description
+- Canonical
+- Robots.txt
+- Sitemap.xml
+- Open Graph
+- Twitter Cards
+- Breadcrumb
+- Schema
+- H1 Verified
+- Heading Hierarchy
+- Internal Links
+- External Links Checked
+
+---
+
+# Phase 7 — Performance
+
+Target Lighthouse Scores
+
+Performance ≥ 95
+
+SEO = 100
+
+Accessibility ≥ 95
+
+Best Practices = 100
+
+Core Web Vitals
+
+- LCP < 2.5s
+- CLS < 0.1
+- INP Excellent
+
+---
+
+# Phase 8 — Analytics
+
+Google Analytics 4
+
+Installed
+
+Verified
+
+---
+
+Google Tag Manager
+
+Installed
+
+Published
+
+---
+
+Meta Pixel
+
+Verified
+
+---
+
+Google Ads Conversion Tracking
+
+Verified
+
+---
+
+Microsoft Clarity
+
+Recording Sessions
+
+Verified
+
+---
+
+# Phase 9 — Google Ads
+
+Campaigns Created
+
+Ad Groups Created
+
+Keywords Added
+
+Negative Keywords Added
+
+Extensions Added
+
+Call Extension
+
+Location Extension
+
+Sitelinks
+
+Structured Snippets
+
+Conversion Tracking Verified
+
+Landing Page Match Verified
+
+Quality Score Monitoring Enabled
+
+---
+
+# Phase 10 — Meta Ads
+
+Pixel Verified
+
+Events Working
+
+Audience Created
+
+Custom Audience
+
+Lookalike Audience
+
+Creative Uploaded
+
+Landing Page Tested
+
+WhatsApp Working
+
+---
+
+# Phase 11 — Testing
+
+Test
+
+Desktop
+
+Tablet
+
+Mobile
+
+Chrome
+
+Edge
+
+Safari
+
+Firefox
+
+Android
+
+iPhone
+
+Slow Internet
+
+Fast Internet
+
+Incognito Mode
+
+---
+
+# Phase 12 — User Testing
+
+Complete Booking Flow
+
+Call Button
+
+WhatsApp
+
+Lead Form
+
+Navigation
+
+FAQ
+
+Vehicle Cards
+
+Internal Links
+
+Footer Links
+
+---
+
+# Phase 13 — Security
+
+HTTPS Enabled
+
+Spam Protection
+
+Input Validation
+
+Server Validation
+
+Error Pages
+
+404
+
+500
+
+Rate Limiting (Future)
+
+reCAPTCHA (Future)
+
+---
+
+# Phase 14 — Accessibility
+
+Keyboard Navigation
+
+Screen Reader Friendly
+
+Focus States
+
+Contrast Ratio
+
+ARIA Labels
+
+Alt Text
+
+Semantic HTML
+
+---
+
+# Phase 15 — Monitoring
+
+Daily
+
+- Leads
+- Calls
+- WhatsApp
+- CPC
+- CTR
+- Search Terms
+
+Weekly
+
+- Quality Score
+- Landing Page
+- Heatmaps
+- User Flow
+
+Monthly
+
+- SEO
+- Ads
+- Performance
+- Content
+- New Keywords
+- New Landing Pages
+
+---
+
+# Phase 16 — Future Roadmap
+
+## Phase 2
+
+- Vendor Dashboard
+- Booking Management
+- Availability Calendar
+- CRM Integration
+- WhatsApp Automation
+
+## Phase 3
+
+- Online Payments
+- Razorpay
+- Cashfree
+- Customer Login
+- Booking History
+
+## Phase 4
+
+- Fleet Management
+- Vendor Panel
+- Driver Panel
+- Vehicle Availability API
+
+## Phase 5
+
+- AI Chat Assistant
+- Voice Booking
+- Predictive Pricing
+- AI Lead Qualification
+- AI Customer Support
+
+---
+
+# Final Pre-Launch Verification
+
+Business Ready
+
+☐
+
+Design Ready
+
+☐
+
+Content Ready
+
+☐
+
+SEO Ready
+
+☐
+
+Images Ready
+
+☐
+
+Tracking Ready
+
+☐
+
+Google Ads Ready
+
+☐
+
+Meta Ads Ready
+
+☐
+
+Forms Working
+
+☐
+
+Responsive Verified
+
+☐
+
+Speed Verified
+
+☐
+
+Security Verified
+
+☐
+
+Launch Approved
+
+☐
+
+---
+
+# Success Metrics (First 90 Days)
+
+Target Metrics
+
+- CTR > 8%
+- Quality Score ≥ 8
+- Conversion Rate > 12%
+- CPL within target budget
+- Bounce Rate < 45%
+- LCP < 2.5s
+- 100% Mobile Responsive
+- Weekly Optimization Cycle Maintained
+
+---
+
+# Project Completion
+
+When all documents (00–15) are implemented:
+
+- The website should be production-ready.
+- The codebase should be AI-friendly and developer-friendly.
+- The landing pages should support Google Ads, Meta Ads, SEO, and future expansion.
+- New city pages and service pages should be easy to create using the same architecture.
+
+---
+
+# Master Documentation Status
+
+✅ 00_Project_Overview
+
+✅ 01_Business_Research
+
+✅ 02_Competitor_Analysis
+
+✅ 03_Keyword_Research
+
+✅ 04_Search_Intent
+
+✅ 05_Landing_Page_Architecture
+
+✅ 06_UI_UX_Design_System
+
+✅ 07_Copywriting
+
+✅ 08_SEO_Blueprint
+
+✅ 09_Image_Guide
+
+✅ 10_NextJS_Architecture
+
+✅ 11_Google_Ads_Blueprint
+
+✅ 12_Meta_Ads_Blueprint
+
+✅ 13_Schema_Markup
+
+✅ 14_Tracking_Analytics
+
+✅ 15_Launch_Checklist
+
+---
+
+END OF 15_Launch_Checklist.md

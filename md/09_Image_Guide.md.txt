@@ -1,0 +1,598 @@
+# 09_Image_Guide.md
+
+# Purpose
+
+This document defines every image required for the website.
+
+It includes
+
+- Image Purpose
+- Section Placement
+- Exact Dimensions
+- Aspect Ratio
+- Responsive Rules
+- SEO Filename
+- ALT Text
+- Image Prompt
+- Compression Rules
+- Loading Strategy
+
+The website should never look like a template or an AI-generated website.
+
+Every image must feel
+
+Premium
+
+Real
+
+Indian
+
+Modern
+
+Professional
+
+Trustworthy
+
+---
+
+# Global Image Rules
+
+NO
+
+❌ Cartoon Style
+
+❌ 3D Characters
+
+❌ Fake AI Faces
+
+❌ Low Resolution
+
+❌ Watermarks
+
+❌ Logos on Vehicles
+
+❌ Oversaturated Colors
+
+❌ Unrealistic Lighting
+
+YES
+
+✅ DSLR Style
+
+✅ Photorealistic
+
+✅ Natural Lighting
+
+✅ Indian Environment
+
+✅ Premium Editing
+
+✅ Clean Composition
+
+✅ Modern Lifestyle
+
+---
+
+# Image Style
+
+Photography Style
+
+Modern Commercial Photography
+
+Lens
+
+50mm
+
+35mm
+
+85mm
+
+Lighting
+
+Natural
+
+Soft
+
+Warm
+
+Clean
+
+Editing
+
+Premium
+
+Minimal
+
+Luxury
+
+---
+
+# Image Format
+
+Preferred
+
+WebP
+
+Fallback
+
+JPEG
+
+Icons
+
+SVG
+
+---
+
+# Compression
+
+Hero
+
+Under 250 KB
+
+Fleet
+
+Under 120 KB
+
+Cards
+
+Under 100 KB
+
+Icons
+
+SVG
+
+---
+
+# Lazy Loading
+
+Hero
+
+No
+
+Everything Else
+
+Yes
+
+---
+
+# Hero Image
+
+Purpose
+
+Create trust immediately.
+
+Image Name
+
+hero-self-drive-bhopal.webp
+
+Dimensions
+
+1920 × 1080
+
+Aspect Ratio
+
+16:9
+
+Responsive
+
+Desktop
+
+Large Hero
+
+Tablet
+
+Crop Center
+
+Mobile
+
+Portrait Crop
+
+SEO Filename
+
+self-drive-car-rental-bhopal-hero.webp
+
+ALT
+
+Premium self drive car rental service in Bhopal with modern vehicles.
+
+Prompt
+
+Modern Indian couple collecting a clean premium self-drive SUV from a professional rental office in Bhopal, smiling staff member handing over keys, premium office, realistic lighting, DSLR photography, no logos, ultra realistic, luxury travel feeling.
+
+---
+
+# Lead Form Background
+
+Purpose
+
+Support Hero
+
+Ratio
+
+16:9
+
+Blurred
+
+Very Light
+
+Should never reduce readability.
+
+---
+
+# Trust Section Icons
+
+Ratio
+
+1:1
+
+Format
+
+SVG
+
+Icons
+
+Verified
+
+Support
+
+Fast Booking
+
+Transparent Pricing
+
+Google Rating
+
+Multiple Cars
+
+---
+
+# Service Section Images
+
+Cards Required
+
+Self Drive
+
+Taxi
+
+Airport
+
+Outstation
+
+Corporate
+
+Monthly Rental
+
+Ratio
+
+1:1
+
+Size
+
+800 × 800
+
+Prompt Style
+
+Real Indian travel situations.
+
+---
+
+# Fleet Images
+
+Every vehicle requires
+
+Front
+
+Side
+
+Interior
+
+Dashboard
+
+Boot
+
+Seats
+
+Ratio
+
+4:3
+
+Size
+
+1200 × 900
+
+Naming
+
+ertiga-self-drive.webp
+
+innova-rental.webp
+
+swift-rental.webp
+
+baleno-rental.webp
+
+brezza-rental.webp
+
+scorpio-rental.webp
+
+ALT
+
+Maruti Suzuki Ertiga available for self drive rental in Bhopal.
+
+---
+
+# Vehicle Gallery
+
+Desktop
+
+4-column Grid
+
+Tablet
+
+2-column
+
+Mobile
+
+Horizontal Swipe
+
+---
+
+# Why Choose Us
+
+Image
+
+Professional Indian customer receiving car keys.
+
+Ratio
+
+4:5
+
+Size
+
+1000 × 1250
+
+---
+
+# Booking Process
+
+Illustration Style
+
+Real photography mixed with premium minimal icons.
+
+Do NOT use cartoons.
+
+---
+
+# Airport Section
+
+Image
+
+Family arriving at airport with luggage beside premium rental vehicle.
+
+Ratio
+
+16:9
+
+---
+
+# Outstation Section
+
+Image
+
+Indian family enjoying road trip.
+
+Highway.
+
+Golden Hour.
+
+Luxury Feel.
+
+---
+
+# Corporate Section
+
+Professional executive entering premium sedan.
+
+Modern office background.
+
+---
+
+# Testimonials
+
+Customer Image
+
+Real
+
+Professional
+
+Natural
+
+Square
+
+800 × 800
+
+No AI look.
+
+---
+
+# FAQ Section
+
+No photos.
+
+Use premium SVG illustrations only.
+
+---
+
+# CTA Section
+
+Premium sunset road.
+
+Luxury SUV.
+
+Minimal copy overlay.
+
+Ratio
+
+21:9
+
+---
+
+# Footer Background
+
+Very subtle.
+
+No heavy graphics.
+
+Light gradient.
+
+---
+
+# Icons
+
+Library
+
+Lucide
+
+SVG Only
+
+24px
+
+32px
+
+48px
+
+Never mix icon styles.
+
+---
+
+# Image SEO
+
+Every image must have
+
+SEO Filename
+
+ALT
+
+Title
+
+Caption
+
+Dimensions
+
+Width
+
+Height
+
+Compression
+
+Lazy Load
+
+---
+
+# Naming Convention
+
+service-name-location.webp
+
+Examples
+
+airport-taxi-bhopal.webp
+
+self-drive-ertiga-bhopal.webp
+
+corporate-car-rental-bhopal.webp
+
+family-road-trip-bhopal.webp
+
+---
+
+# Accessibility
+
+Meaningful ALT
+
+No keyword stuffing
+
+Describe image naturally.
+
+---
+
+# Future Images
+
+Luxury Cars
+
+Tempo Traveller
+
+Bike Rental
+
+Driver Portraits
+
+Office Tour
+
+Customer Stories
+
+Fleet Videos
+
+Drone Shots
+
+Interactive 360 Images
+
+---
+
+# Video Recommendations
+
+Hero Background
+
+5–8 seconds
+
+Muted
+
+Loop
+
+1080P
+
+Compressed
+
+Future
+
+Fleet Walkaround
+
+Office Tour
+
+Customer Delivery
+
+Vehicle Inspection
+
+Airport Pickup
+
+Road Trip Clips
+
+---
+
+# Final Image Checklist
+
+✓ WebP
+
+✓ Responsive
+
+✓ Lazy Loaded
+
+✓ SEO Filename
+
+✓ ALT
+
+✓ Natural Lighting
+
+✓ Indian Audience
+
+✓ No Fake AI Look
+
+✓ Premium Photography
+
+✓ Mobile Optimized
+
+✓ Compression Completed
+
+✓ Aspect Ratio Verified
+
+✓ High Resolution Source
+
+---
+
+END OF 09_Image_Guide.md

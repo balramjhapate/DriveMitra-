@@ -1,0 +1,2016 @@
+# 05_Landing_Page_Architecture.md
+
+# Purpose
+
+This document is the **Master Product Requirement Document (PRD)** for the landing page.
+
+This is **NOT** a UI mockup.
+
+This is **NOT** a wireframe.
+
+This is the implementation blueprint that AI coding agents (Antigravity, Claude Code, Cursor, Windsurf, Codex, etc.) and React developers should follow to build the website.
+
+Every design decision, component, animation, spacing, CTA, SEO element, and conversion optimization must follow this document.
+
+---
+
+# Project Objective
+
+Build the highest converting Car Rental Landing Page for Bhopal.
+
+Primary Goals
+
+✓ Lowest Google Ads CPC
+
+✓ Highest Quality Score
+
+✓ Highest Conversion Rate
+
+✓ Mobile First
+
+✓ Premium User Experience
+
+✓ Human Looking Design
+
+✓ AI Friendly Codebase
+
+✓ SEO Ready
+
+✓ Future Multi-City Ready
+
+✓ Future Marketplace Ready
+
+---
+
+# Design Philosophy
+
+The website must never look like
+
+❌ Local Taxi Website
+
+❌ WordPress Theme
+
+❌ Cheap Landing Page
+
+❌ AI Generated Template
+
+❌ Bootstrap Template
+
+Instead it should feel like
+
+✅ Uber
+
+✅ Airbnb
+
+✅ Revolut
+
+✅ Stripe
+
+✅ Linear
+
+✅ Notion
+
+Modern
+
+Minimal
+
+Luxury
+
+Clean
+
+Fast
+
+Premium
+
+Professional
+
+---
+
+# Design Language
+
+Visual Personality
+
+Premium
+
+Friendly
+
+Confident
+
+Minimal
+
+Modern
+
+Technology Driven
+
+Human
+
+---
+
+# UX Philosophy
+
+Every screen answers only one question.
+
+Never overload users.
+
+Reduce cognitive load.
+
+Guide users naturally toward booking.
+
+Every section has one purpose.
+
+Every section has one CTA.
+
+---
+
+# Conversion Flow
+
+Google Search
+
+↓
+
+Google Ads
+
+↓
+
+Landing Page
+
+↓
+
+Hero
+
+↓
+
+Trust
+
+↓
+
+Vehicle Selection
+
+↓
+
+Booking Form
+
+↓
+
+WhatsApp / Call
+
+↓
+
+Lead
+
+↓
+
+Booking
+
+Never distract the user with unnecessary navigation.
+
+---
+
+# Landing Page Hierarchy
+
+01 Header
+
+↓
+
+02 Hero
+
+↓
+
+03 Trust Bar
+
+↓
+
+04 Service Categories
+
+↓
+
+05 Fleet
+
+↓
+
+06 Why Choose Us
+
+↓
+
+07 Booking Process
+
+↓
+
+08 Popular Locations
+
+↓
+
+09 Testimonials
+
+↓
+
+10 FAQ
+
+↓
+
+11 Final CTA
+
+↓
+
+12 Footer
+
+This order should never change unless A/B testing proves otherwise.
+
+---
+
+# Global Layout
+
+Container Width
+
+1280px
+
+Maximum
+
+Desktop
+
+Centered
+
+Padding
+
+Desktop
+
+80px
+
+Tablet
+
+48px
+
+Mobile
+
+20px
+
+---
+
+# Vertical Spacing
+
+Hero → Trust
+
+96px
+
+Trust → Services
+
+120px
+
+Services → Fleet
+
+120px
+
+Fleet → Why Choose Us
+
+120px
+
+Why Choose Us → Booking
+
+120px
+
+Booking → Testimonials
+
+120px
+
+Testimonials → FAQ
+
+120px
+
+FAQ → CTA
+
+120px
+
+CTA → Footer
+
+80px
+
+Maintain consistent rhythm.
+
+---
+
+# Header
+
+Purpose
+
+Navigation
+
+Trust
+
+Instant Contact
+
+Sticky after first scroll.
+
+Transparent initially.
+
+Solid background after scrolling.
+
+---
+
+# Desktop Header
+
+Left
+
+Logo
+
+Center
+
+Navigation
+
+Right
+
+Phone
+
+WhatsApp
+
+Book Now
+
+---
+
+# Mobile Header
+
+Logo
+
+↓
+
+Hamburger
+
+↓
+
+Call
+
+↓
+
+WhatsApp
+
+Sticky Bottom Actions enabled.
+
+---
+
+# Navigation
+
+Home
+
+Self Drive
+
+Taxi
+
+Airport
+
+Fleet
+
+FAQ
+
+Contact
+
+Never exceed 7 navigation items.
+
+---
+
+# Hero Section
+
+Purpose
+
+Convert users within 5 seconds.
+
+Everything critical must appear above the fold.
+
+---
+
+# Hero Layout
+
+Desktop
+
+60%
+
+Content
+
+40%
+
+Lead Form
+
+Tablet
+
+Stack
+
+Mobile
+
+Stack
+
+Content First
+
+Form Immediately Below
+
+---
+
+# Hero Heading Rules
+
+Only one H1.
+
+Maximum 14 words.
+
+Contains primary keyword.
+
+Benefit driven.
+
+Trust driven.
+
+Easy to scan.
+
+---
+
+# Hero Supporting Copy
+
+Maximum
+
+2 lines.
+
+Readable.
+
+Simple.
+
+Professional.
+
+Never keyword stuff.
+
+---
+
+# Hero CTA
+
+Primary
+
+Book Now
+
+Secondary
+
+WhatsApp
+
+Third
+
+Call Now
+
+Three CTAs maximum.
+
+---
+
+# Lead Form
+
+Must be visible immediately.
+
+Never popup.
+
+Never multi-step.
+
+Maximum fields
+
+6
+
+Fields
+
+Name
+
+Phone
+
+Service
+
+Vehicle
+
+Pickup Date
+
+Pickup Time
+
+Submit
+
+Validation
+
+Inline
+
+Fast
+
+Accessible
+
+---
+
+# Trust Strip
+
+Immediately after Hero.
+
+Horizontal layout.
+
+Desktop
+
+6 badges
+
+Tablet
+
+3 x 2
+
+Mobile
+
+Horizontal scroll
+
+Items
+
+Verified Partners
+
+Google Rated
+
+Fast Booking
+
+Transparent Pricing
+
+Dedicated Support
+
+Multiple Vehicles
+
+---
+
+# Visual Hierarchy
+
+Most attention
+
+Hero
+
+↓
+
+Lead Form
+
+↓
+
+CTA
+
+↓
+
+Trust
+
+↓
+
+Fleet
+
+↓
+
+Reviews
+
+↓
+
+FAQ
+
+Everything else supports conversion.
+
+---
+
+# Section Design Rules
+
+Every section must have
+
+Heading
+
+Subheading
+
+Visual
+
+Content
+
+CTA
+
+Whitespace
+
+Never create sections without purpose.
+
+---
+
+# Color Usage
+
+Primary
+
+Deep Blue
+
+Action
+
+Orange
+
+Success
+
+Green
+
+Neutral
+
+Gray
+
+Background
+
+White
+
+No more than
+
+2 accent colors.
+
+---
+
+# Typography Scale
+
+H1
+
+56
+
+H2
+
+42
+
+H3
+
+32
+
+H4
+
+24
+
+Body
+
+18
+
+Small
+
+16
+
+Caption
+
+14
+
+Buttons
+
+16 SemiBold
+
+Maintain visual hierarchy.
+
+---
+
+# Component Rules
+
+Every component must be
+
+Reusable
+
+Responsive
+
+Accessible
+
+Animated
+
+Performance Optimized
+
+Typed
+
+Configurable
+
+No hardcoded values.
+
+---
+
+# Animation Philosophy
+
+Motion should guide.
+
+Not entertain.
+
+Maximum duration
+
+400ms
+
+Preferred
+
+Fade
+
+Slide
+
+Scale
+
+Stagger
+
+Never over animate.
+
+---
+
+Continue...
+
+
+
+# 05_Landing_Page_Architecture.md
+
+---
+
+# Services Section
+
+## Purpose
+
+The user should immediately understand every service available without reading long paragraphs.
+
+This section should reduce confusion and improve conversion.
+
+Users should instantly identify the service matching their travel requirement.
+
+---
+
+## Section Layout
+
+Desktop
+
+```
+2 Rows
+3 Cards Per Row
+```
+
+Tablet
+
+```
+2 Columns
+```
+
+Mobile
+
+```
+Single Column
+```
+
+Every card must have equal height.
+
+---
+
+## Section Heading
+
+Choose The Perfect Service For Every Journey
+
+---
+
+## Sub Heading
+
+Whether you need a self-drive car, airport transfer or an outstation taxi, we've got the right vehicle for your travel needs.
+
+---
+
+# Service Cards
+
+Every card contains
+
+Image
+
+↓
+
+Title
+
+↓
+
+Short Description
+
+↓
+
+Features
+
+↓
+
+CTA
+
+---
+
+## Card 01
+
+Self Drive Cars
+
+Image
+
+Premium hatchback or SUV
+
+Features
+
+✔ Freedom to Drive
+
+✔ Flexible Duration
+
+✔ Multiple Vehicle Options
+
+CTA
+
+Explore Cars
+
+---
+
+## Card 02
+
+Taxi With Driver
+
+Image
+
+Professional driver opening car door.
+
+Features
+
+✔ Experienced Drivers
+
+✔ Comfortable Ride
+
+✔ Local & Outstation
+
+CTA
+
+Book Taxi
+
+---
+
+## Card 03
+
+Airport Pickup & Drop
+
+Features
+
+✔ On-Time Pickup
+
+✔ Flight Friendly
+
+✔ Reliable Service
+
+CTA
+
+Book Airport Taxi
+
+---
+
+## Card 04
+
+Outstation Travel
+
+Features
+
+✔ Long Distance
+
+✔ Family Friendly
+
+✔ Comfortable Vehicles
+
+CTA
+
+Plan Your Trip
+
+---
+
+## Card 05
+
+Corporate Rental
+
+Features
+
+✔ Business Travel
+
+✔ Monthly Billing
+
+✔ Professional Service
+
+CTA
+
+Contact Sales
+
+---
+
+## Card 06
+
+Monthly Rental
+
+Features
+
+✔ Long Term Plans
+
+✔ Flexible Pricing
+
+✔ Multiple Cars
+
+CTA
+
+View Plans
+
+---
+
+# Card Design
+
+Border Radius
+
+24px
+
+Shadow
+
+Soft
+
+Hover
+
+Lift 8px
+
+↓
+
+Shadow Increase
+
+↓
+
+Image Zoom 1.05x
+
+↓
+
+CTA Highlight
+
+Transition
+
+350ms
+
+---
+
+# Fleet Section
+
+Purpose
+
+Show users available vehicle categories before they ask.
+
+Most users book after seeing vehicle options.
+
+---
+
+# Section Heading
+
+Popular Vehicles
+
+---
+
+Sub Heading
+
+Choose from our most booked vehicles for family trips, airport transfers, business travel and weekend getaways.
+
+---
+
+# Fleet Layout
+
+Desktop
+
+```
+4 Cards
+```
+
+Tablet
+
+```
+2 Cards
+```
+
+Mobile
+
+Horizontal Swipe
+
+Never show more than 8 vehicles initially.
+
+Remaining vehicles
+
+View All
+
+---
+
+# Vehicle Card
+
+Vehicle Image
+
+↓
+
+Vehicle Name
+
+↓
+
+Transmission
+
+↓
+
+Fuel
+
+↓
+
+Seats
+
+↓
+
+Quick Features
+
+↓
+
+Book Now
+
+---
+
+## Vehicle Tags
+
+Most Booked
+
+Best Value
+
+Family Favourite
+
+Weekend Special
+
+Automatic
+
+Manual
+
+Petrol
+
+Diesel
+
+CNG
+
+Premium
+
+SUV
+
+Luxury
+
+---
+
+# Vehicle Information
+
+Every card should display
+
+Vehicle Name
+
+Transmission
+
+Fuel
+
+Seats
+
+Luggage Capacity
+
+Suitable For
+
+Starting Price (Optional)
+
+Availability
+
+CTA
+
+---
+
+# Vehicle Micro Animations
+
+Image Hover
+
+Zoom
+
+Card Hover
+
+Lift
+
+CTA Hover
+
+Glow
+
+Card Entry
+
+Fade Up
+
+Cards should appear with stagger animation.
+
+---
+
+# Why Choose Us
+
+Purpose
+
+Remove objections before users ask.
+
+This section sells trust.
+
+Not features.
+
+---
+
+# Section Heading
+
+Why Customers Choose Us
+
+---
+
+Sub Heading
+
+Designed to provide a smooth booking experience with trusted rental partners and reliable customer support.
+
+---
+
+# Layout
+
+Desktop
+
+```
+2 Columns
+
+Left
+
+Content
+
+Right
+
+Illustration / Premium Image
+```
+
+Tablet
+
+Stack
+
+Mobile
+
+Stack
+
+---
+
+# Benefit Cards
+
+Verified Rental Partners
+
+Transparent Communication
+
+Quick Booking
+
+Multiple Vehicle Options
+
+Professional Support
+
+Customer First Approach
+
+Premium Experience
+
+Flexible Travel
+
+---
+
+Each card
+
+Icon
+
+↓
+
+Heading
+
+↓
+
+Description
+
+Maximum
+
+2 lines
+
+---
+
+# Trust Section
+
+Purpose
+
+Provide social proof.
+
+---
+
+Include
+
+Google Rating
+
+Number of Happy Customers
+
+Years Of Experience (only if factual)
+
+Verified Partners
+
+Response Time (only if factual)
+
+WhatsApp Support
+
+---
+
+Never display fake statistics.
+
+Use placeholders until verified.
+
+---
+
+# Booking Process
+
+Purpose
+
+Reduce uncertainty.
+
+Users should understand the process in less than 10 seconds.
+
+---
+
+Heading
+
+Book Your Ride In Four Easy Steps
+
+---
+
+Step 01
+
+Choose Service
+
+---
+
+Step 02
+
+Share Requirements
+
+---
+
+Step 03
+
+Receive Confirmation
+
+---
+
+Step 04
+
+Enjoy Your Journey
+
+---
+
+Each step
+
+Number
+
+↓
+
+Icon
+
+↓
+
+Title
+
+↓
+
+Description
+
+Animation
+
+Fade
+
+↓
+
+Arrow Animation
+
+↓
+
+Next Step
+
+---
+
+# Popular Locations
+
+Purpose
+
+Increase Local SEO.
+
+Increase trust.
+
+Target location-based searches.
+
+---
+
+Heading
+
+Serving Across Bhopal
+
+---
+
+Location Grid
+
+MP Nagar
+
+Arera Colony
+
+Habibganj
+
+Rani Kamlapati
+
+Airport
+
+Shahpura
+
+Kolar
+
+Ayodhya Bypass
+
+New Market
+
+BHEL
+
+Bagsewaniya
+
+Gulmohar
+
+Future
+
+Indore
+
+Sehore
+
+Vidisha
+
+Ujjain
+
+---
+
+Each location
+
+Location Icon
+
+↓
+
+Name
+
+↓
+
+CTA
+
+Check Availability
+
+---
+
+Continue...
+
+
+
+# 05_Landing_Page_Architecture.md
+
+---
+
+# Testimonials Section
+
+## Purpose
+
+Build maximum trust.
+
+Users trust customers more than companies.
+
+Testimonials must appear before FAQ.
+
+---
+
+## Section Heading
+
+Loved By Travelers Across Bhopal
+
+---
+
+## Sub Heading
+
+Thousands of happy journeys start with a trusted booking experience.
+
+---
+
+## Layout
+
+Desktop
+
+```
+3 Cards
+```
+
+Tablet
+
+```
+2 Cards
+```
+
+Mobile
+
+Horizontal Swipe
+
+---
+
+## Testimonial Card
+
+Customer Photo
+
+↓
+
+Customer Name
+
+↓
+
+City
+
+↓
+
+Vehicle Used
+
+↓
+
+Rating
+
+↓
+
+Review
+
+↓
+
+Travel Purpose
+
+---
+
+## Card Height
+
+Equal Height
+
+---
+
+## Review Length
+
+Maximum
+
+70–90 words
+
+---
+
+## Rating
+
+★★★★★
+
+Only genuine ratings.
+
+Never use fake reviews.
+
+---
+
+## Card Design
+
+Background
+
+White
+
+Border Radius
+
+24px
+
+Padding
+
+32px
+
+Shadow
+
+Medium
+
+Hover
+
+Lift
+
+↓
+
+Shadow Increase
+
+↓
+
+Quote Icon Animation
+
+---
+
+## Customer Photo
+
+Ratio
+
+1:1
+
+Circle
+
+80px
+
+Natural Photography
+
+No AI Looking Faces
+
+---
+
+# Trust Counters
+
+Purpose
+
+Reinforce credibility.
+
+Never use fake numbers.
+
+Until verified use placeholders.
+
+Example
+
+Verified Partners
+
+Happy Customers
+
+Cities Covered
+
+Vehicles Available
+
+Support Availability
+
+---
+
+# FAQ Section
+
+## Purpose
+
+Remove objections.
+
+Capture long-tail SEO.
+
+Support Google AI Overview.
+
+Support Voice Search.
+
+---
+
+## Layout
+
+Desktop
+
+Left
+
+FAQ
+
+Right
+
+Illustration
+
+Tablet
+
+Stack
+
+Mobile
+
+Accordion
+
+---
+
+## Section Heading
+
+Frequently Asked Questions
+
+---
+
+## Questions
+
+How do I book?
+
+Do you provide self drive cars?
+
+Do you provide driver service?
+
+How much does it cost?
+
+Which documents are required?
+
+Can I book for airport?
+
+Do you provide outstation?
+
+How quickly do you respond?
+
+Can I book through WhatsApp?
+
+Which payment methods are accepted?
+
+Can I book for tomorrow?
+
+Can I change my booking?
+
+How does cancellation work?
+
+---
+
+## Accordion Rules
+
+Only one open at a time.
+
+Smooth animation.
+
+300ms
+
+Chevron rotates.
+
+Height animation.
+
+---
+
+# Final CTA Section
+
+Purpose
+
+Capture users who reached bottom.
+
+Never end page without CTA.
+
+---
+
+## Layout
+
+Centered
+
+Large spacing
+
+Premium background
+
+---
+
+## Heading
+
+Ready To Book Your Next Ride?
+
+---
+
+## Sub Heading
+
+Tell us your travel requirement and we'll help you find the best available vehicle with transparent communication and quick support.
+
+---
+
+## Buttons
+
+Primary
+
+Book Now
+
+Secondary
+
+WhatsApp
+
+Third
+
+Call Now
+
+---
+
+## Background
+
+Premium Road
+
+Golden Hour
+
+Luxury SUV
+
+Blur Overlay
+
+Readable Text
+
+---
+
+# Footer
+
+Purpose
+
+Navigation
+
+Trust
+
+SEO
+
+Internal Links
+
+Contact
+
+Legal
+
+---
+
+## Layout
+
+Desktop
+
+4 Columns
+
+Tablet
+
+2 Columns
+
+Mobile
+
+Stack
+
+---
+
+## Column 1
+
+Logo
+
+Description
+
+Google Rating
+
+Social Links
+
+---
+
+## Column 2
+
+Services
+
+Self Drive
+
+Taxi
+
+Airport
+
+Outstation
+
+Corporate
+
+Monthly
+
+---
+
+## Column 3
+
+Popular Locations
+
+MP Nagar
+
+Habibganj
+
+Airport
+
+Arera Colony
+
+Kolar
+
+Shahpura
+
+New Market
+
+---
+
+## Column 4
+
+Contact
+
+Phone
+
+WhatsApp
+
+Email
+
+Address
+
+Working Hours
+
+Google Map
+
+---
+
+## Bottom Footer
+
+Copyright
+
+Privacy
+
+Terms
+
+Cookies (Future)
+
+Sitemap
+
+---
+
+# Floating Actions
+
+Desktop
+
+Bottom Right
+
+WhatsApp
+
+↓
+
+Call
+
+↓
+
+Back To Top
+
+---
+
+Mobile
+
+Sticky Bottom Bar
+
+Call
+
+WhatsApp
+
+Book Now
+
+These buttons should never disappear.
+
+---
+
+# Responsive Rules
+
+## Mobile
+
+Everything stacked.
+
+Hero image optimized.
+
+Single-column layout.
+
+Swipe instead of large grids.
+
+Large tap targets.
+
+Fast loading.
+
+---
+
+## Tablet
+
+Two-column grids.
+
+Reduced spacing.
+
+Same hierarchy.
+
+---
+
+## Desktop
+
+Premium whitespace.
+
+12-column grid.
+
+Maximum readability.
+
+---
+
+# Accessibility
+
+Every image must have ALT.
+
+Every button must have ARIA label.
+
+Keyboard navigation.
+
+Visible focus state.
+
+Semantic HTML only.
+
+Minimum contrast AA.
+
+---
+
+# Component Tree
+
+Layout
+
+│
+
+├── Header
+
+├── Hero
+
+│ ├── Heading
+
+│ ├── CTA
+
+│ ├── Trust
+
+│ └── LeadForm
+
+├── TrustBar
+
+├── Services
+
+│ └── ServiceCard[]
+
+├── Fleet
+
+│ └── VehicleCard[]
+
+├── WhyChooseUs
+
+├── BookingSteps
+
+├── Locations
+
+├── Testimonials
+
+│ └── ReviewCard[]
+
+├── FAQ
+
+│ └── Accordion[]
+
+├── FinalCTA
+
+└── Footer
+
+---
+
+# Antigravity Instructions
+
+Build each section as an independent reusable block.
+
+Never hardcode spacing.
+
+Use global design tokens.
+
+Every section must support future reuse on city-specific pages.
+
+Every component must accept props.
+
+All cards must be reusable.
+
+No duplicated code.
+
+Keep animations subtle.
+
+Optimize for Core Web Vitals.
+
+Use Server Components by default.
+
+Client Components only where interaction is required.
+
+---
+
+# Acceptance Criteria
+
+The landing page is considered complete only when:
+
+✓ Mobile-first responsive
+
+✓ Premium visual quality
+
+✓ No AI-template appearance
+
+✓ Fast loading
+
+✓ Google Ads optimized
+
+✓ SEO optimized
+
+✓ Accessible
+
+✓ Reusable component architecture
+
+✓ Antigravity compatible
+
+✓ Future multi-city ready
+
+✓ Future multi-vendor ready
+
+✓ Easy to scale without redesign
+
+---
+
+# Future Expansion Architecture
+
+Current
+
+Landing Page
+
+↓
+
+Phase 2
+
+Multiple Service Pages
+
+↓
+
+Phase 3
+
+Multiple City Pages
+
+↓
+
+Phase 4
+
+Vendor Dashboard
+
+↓
+
+Phase 5
+
+Customer Dashboard
+
+↓
+
+Phase 6
+
+Booking Engine
+
+↓
+
+Phase 7
+
+Fleet Management
+
+↓
+
+Phase 8
+
+Marketplace
+
+---
+
+END OF 05_Landing_Page_Architecture.md

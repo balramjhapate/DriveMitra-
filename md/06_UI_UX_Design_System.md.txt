@@ -1,0 +1,936 @@
+# 06_UI_UX_Design_System.md
+
+# Purpose
+
+This document defines the complete User Interface (UI) and User Experience (UX) system for the project.
+
+This is the **Master Design Language** that every page, component and future feature must follow.
+
+This is NOT just a style guide.
+
+It defines
+
+- Visual Identity
+- User Experience
+- Interaction Design
+- Motion System
+- Responsive Rules
+- Accessibility
+- Design Tokens
+- Component Behavior
+
+Every future page must inherit this design language.
+
+---
+
+# Design Philosophy
+
+The website should feel like
+
+Premium
+
+↓
+
+Modern
+
+↓
+
+Luxury
+
+↓
+
+Professional
+
+↓
+
+Fast
+
+↓
+
+Human
+
+↓
+
+Technology Driven
+
+Never feel like
+
+❌ Local Taxi Website
+
+❌ Cheap WordPress Theme
+
+❌ Bootstrap Template
+
+❌ AI Generated Website
+
+❌ Government Website
+
+---
+
+# Emotional Experience
+
+When users open the website they should immediately feel
+
+✓ Trust
+
+✓ Professionalism
+
+✓ Safety
+
+✓ Premium Quality
+
+✓ Simplicity
+
+✓ Speed
+
+✓ Reliability
+
+The website should reduce anxiety instead of increasing it.
+
+---
+
+# Design Inspiration
+
+Visual Direction
+
+Stripe
+
+Uber
+
+Airbnb
+
+Linear
+
+Apple
+
+Notion
+
+Framer
+
+Raycast
+
+Tesla
+
+Avoid copying layouts.
+
+Take inspiration only.
+
+---
+
+# UI Principles
+
+Minimal
+
+Readable
+
+Consistent
+
+Scalable
+
+Responsive
+
+Reusable
+
+Fast
+
+Accessible
+
+Every screen must have a clear visual hierarchy.
+
+---
+
+# UX Principles
+
+One Goal Per Screen
+
+One Primary CTA
+
+One Reading Direction
+
+Minimum Cognitive Load
+
+Maximum Readability
+
+Predictable Navigation
+
+Never confuse users.
+
+---
+
+# White Space Strategy
+
+Whitespace is a design element.
+
+Never fill every area.
+
+Spacing creates premium feeling.
+
+Users should feel relaxed while reading.
+
+---
+
+# Grid System
+
+Desktop
+
+12 Columns
+
+Container Width
+
+1280px
+
+Tablet
+
+8 Columns
+
+Mobile
+
+4 Columns
+
+Never break the grid.
+
+---
+
+# Container Rules
+
+Desktop
+
+1280px
+
+Tablet
+
+100%
+
+Mobile
+
+100%
+
+Padding
+
+Desktop
+
+80px
+
+Tablet
+
+48px
+
+Mobile
+
+20px
+
+---
+
+# 8 Point Spacing System
+
+Use only multiples of 8.
+
+8
+
+16
+
+24
+
+32
+
+40
+
+48
+
+64
+
+80
+
+96
+
+120
+
+Never use random spacing.
+
+---
+
+# Color Philosophy
+
+Blue
+
+Trust
+
+Orange
+
+Action
+
+Green
+
+Success
+
+Gray
+
+Neutral
+
+White
+
+Cleanliness
+
+Never overuse colors.
+
+---
+
+# Color Palette
+
+Primary
+
+Deep Blue
+
+Secondary
+
+White
+
+Accent
+
+Premium Orange
+
+Success
+
+Green
+
+Warning
+
+Amber
+
+Danger
+
+Red
+
+Surface
+
+Light Gray
+
+Border
+
+Neutral Gray
+
+Text
+
+Dark Gray
+
+Background
+
+Pure White
+
+---
+
+# Color Usage Rules
+
+Only one Primary Button per screen.
+
+Only one Accent color should attract attention.
+
+Avoid colorful interfaces.
+
+Use white space instead.
+
+---
+
+# Typography Philosophy
+
+Typography should do the design work.
+
+Never rely on large graphics.
+
+Use clean typography.
+
+Readable.
+
+Premium.
+
+Simple.
+
+---
+
+# Font Recommendation
+
+Headings
+
+Manrope
+
+or
+
+Plus Jakarta Sans
+
+Body
+
+Inter
+
+Fallback
+
+System Fonts
+
+---
+
+# Font Scale
+
+H1
+
+56px
+
+H2
+
+44px
+
+H3
+
+36px
+
+H4
+
+28px
+
+H5
+
+22px
+
+Body Large
+
+18px
+
+Body
+
+16px
+
+Small
+
+14px
+
+Caption
+
+12px
+
+---
+
+# Font Weight
+
+Light
+
+300
+
+Regular
+
+400
+
+Medium
+
+500
+
+SemiBold
+
+600
+
+Bold
+
+700
+
+Never use extra bold everywhere.
+
+---
+
+# Border Radius
+
+Buttons
+
+16px
+
+Cards
+
+24px
+
+Forms
+
+16px
+
+Images
+
+24px
+
+Floating Cards
+
+32px
+
+Consistent throughout website.
+
+---
+
+# Shadows
+
+Level 1
+
+Very Soft
+
+Cards
+
+Level 2
+
+Medium
+
+Hover
+
+Level 3
+
+Dialogs
+
+Avoid heavy shadows.
+
+---
+
+# Button Design
+
+Primary
+
+Filled
+
+Blue Background
+
+White Text
+
+Secondary
+
+Outline
+
+Transparent
+
+Dark Text
+
+Ghost
+
+Text Only
+
+Danger
+
+Red
+
+Success
+
+Green
+
+---
+
+# Button States
+
+Default
+
+Hover
+
+Pressed
+
+Focused
+
+Disabled
+
+Loading
+
+Every button must support all states.
+
+---
+
+# Button Size
+
+Large
+
+56px Height
+
+Medium
+
+48px
+
+Small
+
+40px
+
+---
+
+# Input Design
+
+Rounded
+
+16px Radius
+
+Floating Label
+
+Optional
+
+Focus
+
+Blue Border
+
+Error
+
+Red Border
+
+Success
+
+Green Border
+
+Placeholder
+
+Light Gray
+
+---
+
+# Form UX
+
+Maximum
+
+6 Fields
+
+Single Column
+
+Large Inputs
+
+Fast Validation
+
+Inline Error
+
+Visible Labels
+
+No placeholder-only fields.
+
+---
+
+# Cards
+
+Cards should feel like physical objects.
+
+Padding
+
+32px
+
+Radius
+
+24px
+
+Shadow
+
+Soft
+
+Hover
+
+Lift
+
+Image
+
+Top
+
+Content
+
+Middle
+
+CTA
+
+Bottom
+
+Equal Heights
+
+---
+
+# Icons
+
+Only one icon family.
+
+Recommended
+
+Lucide
+
+Stroke Icons
+
+SVG Only
+
+Sizes
+
+20
+
+24
+
+32
+
+48
+
+---
+
+# Navigation
+
+Desktop
+
+Sticky
+
+Transparent Initially
+
+Solid After Scroll
+
+Mobile
+
+Slide Drawer
+
+Never full-screen takeover.
+
+---
+
+# Hero Design
+
+Height
+
+90vh
+
+Desktop
+
+75vh
+
+Tablet
+
+Auto
+
+Mobile
+
+Content first
+
+Form second
+
+Hero must never push CTA below first screen.
+
+---
+
+# Images
+
+Real
+
+Indian
+
+Natural
+
+Modern
+
+Luxury
+
+No AI looking faces.
+
+No cartoon illustrations.
+
+---
+
+# Motion Design
+
+Animation should explain.
+
+Not entertain.
+
+Duration
+
+200–400ms
+
+Preferred
+
+Fade
+
+Slide
+
+Scale
+
+Stagger
+
+Never bounce excessively.
+
+---
+
+# Hover Effects
+
+Cards
+
+Lift
+
+Buttons
+
+Scale
+
+Images
+
+Zoom
+
+Links
+
+Underline
+
+Icons
+
+Rotate Slightly
+
+Subtle only.
+
+---
+
+# Loading Experience
+
+Skeleton Screens
+
+Progress Indicators
+
+Button Loading States
+
+Image Blur Placeholder
+
+No blank screens.
+
+---
+
+# Accessibility
+
+WCAG AA
+
+Keyboard Navigation
+
+Visible Focus
+
+ARIA Labels
+
+Readable Contrast
+
+Alt Text
+
+Semantic HTML
+
+---
+
+# Responsive Rules
+
+Design Mobile First.
+
+Desktop is enhancement.
+
+Never hide critical functionality.
+
+CTA always visible.
+
+---
+
+# Micro Interactions
+
+Button Hover
+
+Input Focus
+
+Card Hover
+
+Accordion Expand
+
+Counter Animation
+
+Toast Notifications
+
+Scroll Progress
+
+Subtle and meaningful.
+
+---
+
+# Empty States
+
+Friendly Message
+
+Illustration
+
+Helpful CTA
+
+Never show blank areas.
+
+---
+
+# Error States
+
+Explain problem.
+
+Suggest solution.
+
+Offer retry.
+
+Never blame user.
+
+---
+
+# Toast Messages
+
+Success
+
+Green
+
+Error
+
+Red
+
+Warning
+
+Amber
+
+Info
+
+Blue
+
+Top Right Desktop
+
+Bottom Mobile
+
+---
+
+# Visual Consistency Rules
+
+Every page must use
+
+Same Buttons
+
+Same Cards
+
+Same Icons
+
+Same Typography
+
+Same Spacing
+
+Same Shadows
+
+Same Motion
+
+No exceptions.
+
+---
+
+# Future Dark Mode
+
+Prepare design tokens.
+
+Do not implement initially.
+
+Keep architecture theme-ready.
+
+---
+
+# Acceptance Criteria
+
+A user should immediately feel
+
+✓ Premium
+
+✓ Fast
+
+✓ Safe
+
+✓ Professional
+
+✓ Easy To Use
+
+✓ Trustworthy
+
+without reading any content.
+
+If users feel confused,
+
+the design has failed.
+
+---
+
+END OF 06_UI_UX_Design_System.md

@@ -1,0 +1,17 @@
+export const siteConfig = {
+  name: "DriveMitra",
+  phone: "+918889539174",
+  phoneDisplay: "+91 88895 39174",
+  whatsapp: "+918889539174",
+  whatsappDisplay: "+91 88895 39174",
+  email: "bhopalservice998@gmail.com",
+  address: "Plot No. 12, dig bunglow chouraha Bhopal, Madhya Pradesh 462038",
+  workingHours: "24/7 Open",
+  supportHours: "24/7 Dedicated Call & WhatsApp Support",
+  googleMapsUrl: "https://maps.google.com",
+  rating: "4.8",
+  ratingCount: "2,450",
+  url: "https://bhopal.drivemitra.com",
+  metaTitle: "Self Drive Car Rental in Bhopal | Fast Booking | DriveMitra",
+  metaDescription: "Book reliable self drive cars, airport taxis, and outstation cabs in Bhopal. Choose from Swift, Ertiga, Innova with transparent pricing and 24/7 support.",
+};

@@ -1,0 +1,729 @@
+# 08_SEO_Blueprint.md
+
+# Purpose
+
+This document defines the complete SEO strategy for the Bhopal Car Rental platform.
+
+The objective is NOT only ranking.
+
+The objective is to create a website that performs well for
+
+- Google Ads
+- Organic SEO
+- AI Search
+- Google AI Overview
+- Bing AI
+- ChatGPT Search
+- Perplexity
+- Voice Search
+- Local Search
+
+while maintaining excellent User Experience.
+
+---
+
+# SEO Goals
+
+Primary
+
+Increase Qualified Leads
+
+---
+
+Secondary
+
+Increase Organic Traffic
+
+---
+
+Third
+
+Support Google Ads Quality Score
+
+---
+
+Fourth
+
+Become the Authority Website for Car Rental in Bhopal.
+
+---
+
+# SEO Philosophy
+
+User First
+
+↓
+
+Search Intent
+
+↓
+
+Content Quality
+
+↓
+
+Technical SEO
+
+↓
+
+Authority
+
+↓
+
+Ranking
+
+Never
+
+Keyword Stuffing
+
+Never
+
+Fake SEO Tricks
+
+Never
+
+Hidden Text
+
+Never
+
+Duplicate Content
+
+---
+
+# Search Intent Strategy
+
+Transactional
+
+Highest Priority
+
+Examples
+
+Self Drive Car Bhopal
+
+Car Rental Bhopal
+
+Taxi Service Bhopal
+
+Airport Taxi
+
+Outstation Taxi
+
+---
+
+Commercial
+
+Comparison
+
+Pricing
+
+Reviews
+
+Vehicle Types
+
+---
+
+Informational
+
+Future Blog Strategy
+
+How Self Drive Works
+
+Documents Required
+
+Best Cars For Road Trips
+
+Weekend Trips Near Bhopal
+
+---
+
+# URL Structure
+
+/
+
+Homepage
+
+---
+
+/self-drive-car-bhopal
+
+---
+
+/car-rental-bhopal
+
+---
+
+/taxi-service-bhopal
+
+---
+
+/airport-taxi-bhopal
+
+---
+
+/outstation-taxi-bhopal
+
+---
+
+/ertiga-on-rent-bhopal
+
+---
+
+/innova-on-rent-bhopal
+
+---
+
+/corporate-car-rental
+
+---
+
+/monthly-car-rental
+
+---
+
+# URL Rules
+
+Short
+
+Readable
+
+Keyword Focused
+
+No Dates
+
+No IDs
+
+No Special Characters
+
+Lowercase Only
+
+---
+
+# Primary Keywords
+
+Self Drive Car Bhopal
+
+Car Rental Bhopal
+
+Taxi Service Bhopal
+
+Airport Taxi Bhopal
+
+Outstation Taxi Bhopal
+
+Rent Car Bhopal
+
+Book Car Bhopal
+
+---
+
+# Secondary Keywords
+
+Self Drive Cars
+
+Rental Cars
+
+SUV Rental
+
+Luxury Car
+
+Weekend Rental
+
+Corporate Taxi
+
+Airport Pickup
+
+Airport Drop
+
+Family Car Rental
+
+---
+
+# Semantic Keywords
+
+Vehicle Rental
+
+Travel Partner
+
+Road Trip
+
+Family Travel
+
+Business Travel
+
+Professional Driver
+
+Flexible Booking
+
+Premium Cars
+
+Reliable Taxi
+
+Instant Booking
+
+---
+
+# Local SEO Keywords
+
+MP Nagar
+
+Arera Colony
+
+Habibganj
+
+Rani Kamlapati
+
+Airport
+
+Kolar Road
+
+Shahpura
+
+New Market
+
+BHEL
+
+Ayodhya Bypass
+
+Bagsewaniya
+
+Gulmohar
+
+---
+
+# Keyword Placement
+
+H1
+
+Primary Keyword
+
+---
+
+Hero Paragraph
+
+Primary + Secondary
+
+---
+
+Fleet Section
+
+Vehicle Keywords
+
+---
+
+FAQ
+
+Question Keywords
+
+---
+
+Footer
+
+Location Keywords
+
+---
+
+Image ALT
+
+Descriptive Keyword
+
+---
+
+Meta Title
+
+Primary Keyword First
+
+---
+
+Meta Description
+
+Primary + CTA
+
+---
+
+# Title Formula
+
+Primary Keyword
+
++
+
+Benefit
+
++
+
+Brand
+
+Example
+
+Self Drive Car Rental in Bhopal | Fast Booking | Brand Name
+
+---
+
+# Meta Description Formula
+
+Primary Keyword
+
+↓
+
+Benefit
+
+↓
+
+Trust
+
+↓
+
+CTA
+
+Example
+
+Book reliable self drive cars, airport taxis and rental vehicles in Bhopal with quick booking, transparent pricing and dedicated support.
+
+---
+
+# Heading Structure
+
+H1
+
+One Only
+
+---
+
+H2
+
+Main Sections
+
+---
+
+H3
+
+Cards
+
+---
+
+H4
+
+Optional
+
+---
+
+Never Skip Heading Levels.
+
+---
+
+# Internal Linking Strategy
+
+Hero
+
+↓
+
+Fleet
+
+↓
+
+FAQ
+
+↓
+
+Service Pages
+
+↓
+
+Footer
+
+Every page should link to
+
+Related Services
+
+Related Vehicles
+
+Related Locations
+
+---
+
+# Image SEO
+
+Every image should have
+
+SEO Filename
+
+Alt Text
+
+Title
+
+Caption (if required)
+
+WebP Format
+
+Lazy Loading
+
+Responsive Sizes
+
+---
+
+Filename Example
+
+self-drive-car-bhopal-ertiga.webp
+
+airport-taxi-bhopal.webp
+
+family-car-rental-bhopal.webp
+
+---
+
+# Content Rules
+
+Minimum
+
+1000+ words per service page
+
+No AI sounding text
+
+No keyword stuffing
+
+Short paragraphs
+
+Readable
+
+Helpful
+
+Original
+
+---
+
+# FAQ Strategy
+
+Target
+
+People Also Ask
+
+Voice Search
+
+AI Search
+
+Examples
+
+Can I rent a self drive car in Bhopal?
+
+Is fuel included?
+
+Which documents are required?
+
+Do you provide airport pickup?
+
+Can I book for outstation travel?
+
+---
+
+# Schema Strategy
+
+Organization
+
+LocalBusiness
+
+FAQ
+
+Breadcrumb
+
+WebSite
+
+SearchAction
+
+Review
+
+Service
+
+Vehicle (future)
+
+---
+
+# Technical SEO
+
+HTTPS
+
+Canonical URLs
+
+Robots.txt
+
+XML Sitemap
+
+Image Sitemap
+
+Fast Loading
+
+Mobile Friendly
+
+Core Web Vitals
+
+No Render Blocking
+
+Lazy Images
+
+Optimized Fonts
+
+Compressed Assets
+
+---
+
+# Core Web Vitals Targets
+
+LCP
+
+Under 2.5 Seconds
+
+CLS
+
+Below 0.1
+
+INP
+
+Excellent
+
+Performance
+
+95+
+
+SEO
+
+100
+
+Accessibility
+
+95+
+
+Best Practices
+
+100
+
+---
+
+# AI Search Optimization
+
+Write naturally.
+
+Answer questions directly.
+
+Use structured headings.
+
+Use FAQs.
+
+Use semantic entities.
+
+Avoid repetitive keywords.
+
+Create high topical authority.
+
+---
+
+# Future Blog Strategy
+
+Weekend Trips Near Bhopal
+
+Best Self Drive Cars
+
+Family Road Trip Guide
+
+Airport Travel Guide
+
+Self Drive vs Taxi
+
+Car Rental Checklist
+
+Travel Safety Tips
+
+Best Cars For Long Drives
+
+---
+
+# Google Business Profile Strategy
+
+Primary Category
+
+Car Rental Agency
+
+Secondary
+
+Taxi Service
+
+Airport Shuttle
+
+Travel Agency (if applicable)
+
+Weekly Photo Upload
+
+Customer Review Replies
+
+Business Updates
+
+Location Keywords
+
+---
+
+# Backlink Strategy
+
+Local Business Directories
+
+Travel Blogs
+
+Tourism Websites
+
+Local News
+
+Partner Websites
+
+Google Business Profile
+
+Justdial
+
+Bing Places
+
+Apple Maps
+
+---
+
+# SEO Checklist
+
+✓ One H1
+
+✓ Semantic Headings
+
+✓ Optimized Title
+
+✓ Optimized Meta Description
+
+✓ Internal Links
+
+✓ FAQ
+
+✓ Schema
+
+✓ Lazy Images
+
+✓ Fast Loading
+
+✓ Mobile First
+
+✓ WebP Images
+
+✓ Accessible Forms
+
+✓ Canonical
+
+✓ Sitemap
+
+✓ Robots
+
+✓ Google Search Console
+
+✓ Google Analytics
+
+✓ Structured Data
+
+✓ Local SEO
+
+✓ No Keyword Stuffing
+
+✓ Human First Content
+
+---
+
+END OF 08_SEO_Blueprint.md

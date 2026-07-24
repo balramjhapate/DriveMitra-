@@ -1,0 +1,956 @@
+# 17_Project_File_Structure.md
+
+# Purpose
+
+This document defines the complete project folder structure for the Car Rental Platform.
+
+This is the **single source of truth** for the project architecture.
+
+Every developer, AI coding agent, Antigravity, Cursor, Claude Code, Windsurf, Codex, or future contributor must follow this structure.
+
+Never create random folders.
+
+Never place files in incorrect locations.
+
+Every file must have a single responsibility.
+
+---
+
+# Project Philosophy
+
+The project must be
+
+- Modular
+- Scalable
+- Reusable
+- Maintainable
+- SEO Friendly
+- AI Friendly
+- Team Friendly
+- Enterprise Ready
+
+---
+
+# Tech Stack
+
+Framework
+
+Next.js (App Router)
+
+Language
+
+TypeScript
+
+Styling
+
+Tailwind CSS
+
+Animation
+
+Framer Motion
+
+Forms
+
+React Hook Form
+
+Validation
+
+Zod
+
+Icons
+
+Lucide
+
+Image
+
+next/image
+
+Deployment
+
+Vercel
+
+---
+
+# Root Structure
+
+```
+car-rental-platform/
+
+│
+
+├── app/
+
+├── components/
+
+├── features/
+
+├── hooks/
+
+├── lib/
+
+├── services/
+
+├── types/
+
+├── utils/
+
+├── config/
+
+├── constants/
+
+├── styles/
+
+├── public/
+
+├── docs/
+
+├── prompts/
+
+├── md/
+
+├── tests/
+
+├── middleware.ts
+
+├── next.config.ts
+
+├── package.json
+
+└── README.md
+```
+
+---
+
+# App Folder
+
+```
+app/
+
+layout.tsx
+
+page.tsx
+
+loading.tsx
+
+error.tsx
+
+not-found.tsx
+
+robots.ts
+
+sitemap.ts
+
+manifest.ts
+```
+
+---
+
+# Route Structure
+
+```
+app/
+
+(self-drive)
+
+(taxi)
+
+(airport)
+
+(outstation)
+
+(corporate)
+
+(monthly)
+
+(vehicle)
+
+(contact)
+
+(privacy)
+
+(terms)
+
+(blog)
+
+(admin-future)
+
+(vendor-future)
+
+(customer-future)
+```
+
+---
+
+# Future City Structure
+
+```
+app/
+
+bhopal/
+
+indore/
+
+ujjain/
+
+sehore/
+
+vidisha/
+
+jabalpur/
+
+...
+```
+
+Every city must inherit the same reusable architecture.
+
+---
+
+# Vehicle Structure
+
+```
+vehicle/
+
+ertiga/
+
+innova/
+
+swift/
+
+baleno/
+
+brezza/
+
+creta/
+
+scorpio/
+
+thar/
+
+fortuner/
+
+...
+```
+
+---
+
+# Components Folder
+
+```
+components/
+
+layout/
+
+hero/
+
+header/
+
+footer/
+
+navigation/
+
+buttons/
+
+forms/
+
+cards/
+
+fleet/
+
+faq/
+
+testimonials/
+
+sections/
+
+common/
+
+icons/
+
+animations/
+
+seo/
+
+tracking/
+```
+
+---
+
+# Layout Components
+
+```
+Header
+
+Footer
+
+Container
+
+Section
+
+PageWrapper
+
+Sidebar (future)
+
+TopBar
+
+BottomBar
+```
+
+---
+
+# Hero Components
+
+```
+Hero
+
+HeroImage
+
+HeroContent
+
+HeroCTA
+
+HeroStats
+
+HeroTrust
+
+HeroBackground
+
+HeroBadge
+```
+
+---
+
+# Form Components
+
+```
+BookingForm
+
+Input
+
+Textarea
+
+Select
+
+Checkbox
+
+Radio
+
+Calendar
+
+DatePicker
+
+TimePicker
+
+SubmitButton
+
+Validation
+
+SuccessMessage
+
+ErrorMessage
+```
+
+---
+
+# Fleet Components
+
+```
+FleetGrid
+
+FleetCard
+
+FleetFilter
+
+FleetCategory
+
+FleetImage
+
+VehicleTag
+
+VehicleBadge
+
+VehicleGallery
+
+VehicleFeatures
+```
+
+---
+
+# Service Components
+
+```
+ServiceCard
+
+ServiceGrid
+
+ServiceIcon
+
+ServiceCTA
+
+ServiceContent
+```
+
+---
+
+# Trust Components
+
+```
+TrustBar
+
+TrustCard
+
+GoogleRating
+
+PartnerBadge
+
+VerifiedBadge
+
+SupportBadge
+```
+
+---
+
+# Testimonial Components
+
+```
+Testimonials
+
+ReviewCard
+
+RatingStars
+
+CustomerImage
+
+Carousel
+
+ReviewBadge
+```
+
+---
+
+# FAQ Components
+
+```
+FAQ
+
+Accordion
+
+Question
+
+Answer
+
+Category
+
+Search (future)
+```
+
+---
+
+# CTA Components
+
+```
+PrimaryCTA
+
+SecondaryCTA
+
+CallButton
+
+WhatsAppButton
+
+StickyCTA
+
+FloatingCTA
+```
+
+---
+
+# Footer Components
+
+```
+Footer
+
+FooterLinks
+
+FooterContact
+
+FooterSocial
+
+FooterCities
+
+FooterServices
+
+Copyright
+```
+
+---
+
+# Common Components
+
+```
+SectionHeading
+
+SectionSubheading
+
+Divider
+
+Badge
+
+Chip
+
+Tag
+
+Counter
+
+Toast
+
+Modal
+
+Loader
+
+Skeleton
+
+EmptyState
+```
+
+---
+
+# Animation Components
+
+```
+FadeUp
+
+FadeIn
+
+SlideLeft
+
+SlideRight
+
+Scale
+
+Zoom
+
+Stagger
+
+Reveal
+
+ScrollAnimation
+```
+
+---
+
+# Hooks
+
+```
+useMediaQuery
+
+useStickyHeader
+
+useScroll
+
+useBooking
+
+useWhatsApp
+
+usePhone
+
+useAnalytics
+
+useFormValidation
+
+useViewport
+
+useDebounce
+
+useIntersectionObserver
+```
+
+---
+
+# Services Folder
+
+```
+services/
+
+booking.ts
+
+analytics.ts
+
+seo.ts
+
+schema.ts
+
+tracking.ts
+
+whatsapp.ts
+
+email.ts
+
+api.ts
+```
+
+---
+
+# Utils
+
+```
+format.ts
+
+helpers.ts
+
+validators.ts
+
+dates.ts
+
+seo.ts
+
+images.ts
+
+animations.ts
+```
+
+---
+
+# Types
+
+```
+Vehicle.ts
+
+Booking.ts
+
+Customer.ts
+
+Review.ts
+
+Service.ts
+
+City.ts
+
+Form.ts
+
+Analytics.ts
+```
+
+---
+
+# Constants
+
+```
+colors.ts
+
+spacing.ts
+
+breakpoints.ts
+
+routes.ts
+
+cities.ts
+
+vehicles.ts
+
+faq.ts
+
+services.ts
+```
+
+---
+
+# Config
+
+```
+site.ts
+
+seo.ts
+
+analytics.ts
+
+ads.ts
+
+meta.ts
+
+schema.ts
+```
+
+---
+
+# Styles
+
+```
+globals.css
+
+tailwind.css
+
+animations.css
+
+utilities.css
+```
+
+---
+
+# Public Folder
+
+```
+public/
+
+images/
+
+hero/
+
+fleet/
+
+services/
+
+icons/
+
+logos/
+
+testimonials/
+
+cities/
+
+vehicles/
+
+videos/
+
+favicons/
+
+og/
+```
+
+---
+
+# Image Folder
+
+```
+hero/
+
+fleet/
+
+services/
+
+customers/
+
+cities/
+
+backgrounds/
+
+icons/
+```
+
+---
+
+# Documentation Folder
+
+```
+docs/
+
+Project Documentation
+
+Business Docs
+
+SEO Docs
+
+Architecture Docs
+
+Design Docs
+```
+
+---
+
+# Markdown Folder
+
+```
+md/
+
+00_Project_Overview.md
+
+01_Business_Research.md
+
+...
+
+17_Project_File_Structure.md
+
+18_AI_Master_Prompt.md
+```
+
+---
+
+# Prompt Folder
+
+```
+prompts/
+
+antigravity.md
+
+cursor.md
+
+claude.md
+
+codex.md
+
+windsurf.md
+```
+
+---
+
+# Testing Folder
+
+```
+tests/
+
+unit/
+
+integration/
+
+e2e/
+
+performance/
+
+accessibility/
+```
+
+---
+
+# Naming Convention
+
+Components
+
+PascalCase
+
+```
+Hero.tsx
+
+BookingForm.tsx
+
+VehicleCard.tsx
+```
+
+Hooks
+
+camelCase
+
+```
+useBooking.ts
+
+useAnalytics.ts
+```
+
+Files
+
+lowercase when appropriate
+
+No spaces
+
+No special characters
+
+---
+
+# Import Order
+
+React
+
+↓
+
+Third Party
+
+↓
+
+Internal Components
+
+↓
+
+Hooks
+
+↓
+
+Utils
+
+↓
+
+Types
+
+↓
+
+Styles
+
+---
+
+# Component Rules
+
+Every component must
+
+- Have one responsibility
+- Accept props
+- Be reusable
+- Be responsive
+- Support loading
+- Support empty state
+- Be accessible
+- Be typed
+
+---
+
+# Future Modules
+
+Vendor Dashboard
+
+Customer Dashboard
+
+Admin Dashboard
+
+Booking Engine
+
+Payment System
+
+CRM
+
+Notification System
+
+Availability Engine
+
+AI Assistant
+
+Invoice System
+
+Reports
+
+---
+
+# Code Quality
+
+No duplicate components.
+
+No duplicated business logic.
+
+No inline styles.
+
+No magic numbers.
+
+No hardcoded colors.
+
+No hardcoded spacing.
+
+Everything configurable.
+
+---
+
+# Final Architecture Rule
+
+Whenever a new feature is added,
+
+first determine
+
+- Folder
+- Component
+- Type
+- Service
+- Hook
+- Route
+
+Only then start implementation.
+
+Never create files randomly.
+
+This folder structure is the permanent architecture for the project.
+
+---
+
+END OF 17_Project_File_Structure.md

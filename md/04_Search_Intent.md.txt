@@ -1,0 +1,807 @@
+# 04_Search_Intent.md
+
+# Purpose
+
+This document defines the complete Search Intent Architecture for the project.
+
+Everything in this project must start from **Search Intent**, not from design.
+
+The Landing Page, Google Ads, Meta Ads, SEO, Copywriting and Future City Pages will all be built around user intent.
+
+If Search Intent is wrong,
+
+everything becomes expensive.
+
+Higher CPC.
+
+Lower Quality Score.
+
+Lower Conversion.
+
+Poor SEO.
+
+---
+
+# Search Intent Philosophy
+
+People never search because they want a website.
+
+People search because they have a problem.
+
+Our job is to solve that problem faster than competitors.
+
+Therefore
+
+Search
+
+↓
+
+Intent
+
+↓
+
+Solution
+
+↓
+
+Landing Page
+
+↓
+
+Lead
+
+↓
+
+Booking
+
+Never reverse this flow.
+
+---
+
+# Customer Intent Funnel
+
+Level 1
+
+Awareness
+
+↓
+
+Level 2
+
+Research
+
+↓
+
+Level 3
+
+Comparison
+
+↓
+
+Level 4
+
+Ready To Book
+
+↓
+
+Level 5
+
+Returning Customer
+
+Every page should identify which level the visitor belongs to.
+
+---
+
+# Intent Categories
+
+## Transactional Intent
+
+Highest Priority
+
+These users are ready to book.
+
+Examples
+
+Self Drive Car Bhopal
+
+Car Rental Bhopal
+
+Taxi Service Bhopal
+
+Airport Taxi
+
+Book Ertiga
+
+Book Innova
+
+Rent Car Today
+
+Need Taxi Now
+
+These users convert the fastest.
+
+Google Ads should primarily target them.
+
+---
+
+## Commercial Investigation
+
+Second Priority
+
+These users compare providers.
+
+Examples
+
+Best Self Drive Car Bhopal
+
+Cheapest Car Rental
+
+Best Taxi Service
+
+Car Rental Reviews
+
+Taxi Price
+
+Airport Taxi Charges
+
+These users need
+
+Trust
+
+Reviews
+
+Benefits
+
+Comparison
+
+Proof
+
+---
+
+## Informational Intent
+
+Future SEO
+
+Examples
+
+How Self Drive Works
+
+Documents Required
+
+Difference Between Taxi And Self Drive
+
+Weekend Trips
+
+Road Trip Tips
+
+Fuel Policy
+
+Deposit Policy
+
+Insurance
+
+These pages build authority.
+
+---
+
+## Navigational Intent
+
+Brand Search
+
+Example
+
+Brand Name
+
+Brand Name Reviews
+
+Brand Contact
+
+Brand WhatsApp
+
+Should always lead to homepage.
+
+---
+
+# Intent Priority
+
+Priority 1
+
+Ready To Book
+
+Priority 2
+
+Compare
+
+Priority 3
+
+Learn
+
+Priority 4
+
+Brand Search
+
+---
+
+# Customer Personas
+
+## Persona 1
+
+College Student
+
+Goal
+
+Weekend Trip
+
+Budget
+
+Medium
+
+Device
+
+Mobile
+
+Expected Time
+
+2 Minutes
+
+CTA
+
+Book Self Drive
+
+---
+
+## Persona 2
+
+Family
+
+Goal
+
+Outstation Trip
+
+Vehicle
+
+Ertiga
+
+Innova
+
+Primary Concern
+
+Safety
+
+Comfort
+
+CTA
+
+Book Family Vehicle
+
+---
+
+## Persona 3
+
+Corporate
+
+Goal
+
+Business Travel
+
+Concern
+
+Professional Service
+
+Invoice
+
+Reliability
+
+CTA
+
+Corporate Booking
+
+---
+
+## Persona 4
+
+Tourist
+
+Goal
+
+Explore City
+
+Concern
+
+Easy Booking
+
+Airport Pickup
+
+Google Reviews
+
+CTA
+
+Book Now
+
+---
+
+## Persona 5
+
+Airport User
+
+Goal
+
+Airport Pickup
+
+Concern
+
+On Time
+
+Reliable
+
+CTA
+
+Airport Taxi
+
+---
+
+# Customer Questions
+
+Every visitor asks
+
+Can I trust this company?
+
+↓
+
+Is vehicle available?
+
+↓
+
+How much will it cost?
+
+↓
+
+Can I book now?
+
+↓
+
+How quickly will someone contact me?
+
+↓
+
+Can I call instead?
+
+Landing page should answer these within first screen.
+
+---
+
+# Keyword Intent Matrix
+
+| Keyword | Intent | Landing Page |
+|----------|--------|--------------|
+| self drive car bhopal | Transactional | Self Drive |
+| car rental bhopal | Transactional | Homepage |
+| taxi service bhopal | Transactional | Taxi |
+| airport taxi bhopal | Transactional | Airport |
+| outstation taxi bhopal | Transactional | Outstation |
+| ertiga on rent bhopal | Vehicle Intent | Ertiga Page |
+| innova on rent bhopal | Vehicle Intent | Innova Page |
+| monthly car rental | Commercial | Monthly Rental |
+| corporate car rental | Commercial | Corporate |
+
+---
+
+# Intent To Landing Page Mapping
+
+Google Search
+
+↓
+
+Dedicated Landing Page
+
+Never homepage.
+
+Examples
+
+Self Drive Keyword
+
+↓
+
+Self Drive Landing Page
+
+Airport Keyword
+
+↓
+
+Airport Landing Page
+
+Corporate Keyword
+
+↓
+
+Corporate Landing Page
+
+Vehicle Keyword
+
+↓
+
+Vehicle Landing Page
+
+---
+
+# Hero Intent
+
+Purpose
+
+Answer user intent immediately.
+
+User searched
+
+Self Drive Car
+
+Hero should immediately mention
+
+Self Drive Cars
+
+NOT
+
+Premium Travel Solutions
+
+Generic headlines reduce Quality Score.
+
+---
+
+# Trust Intent
+
+Users want proof.
+
+Include
+
+Google Rating
+
+Verified Partners
+
+WhatsApp
+
+Phone
+
+Real Images
+
+Vehicle Photos
+
+No fake numbers.
+
+---
+
+# CTA Intent
+
+User searched
+
+Book Car
+
+CTA
+
+Book Now
+
+Not
+
+Learn More
+
+User searched
+
+Airport Taxi
+
+CTA
+
+Book Airport Taxi
+
+Intent and CTA should always match.
+
+---
+
+# Form Intent
+
+The form should ask only booking-related questions.
+
+Never ask unnecessary details.
+
+Required
+
+Name
+
+Phone
+
+Service
+
+Vehicle
+
+Travel Date
+
+Pickup Time
+
+Optional
+
+Message
+
+---
+
+# Fleet Intent
+
+Users searching
+
+Ertiga
+
+Should see Ertiga immediately.
+
+Users searching
+
+SUV
+
+Should see SUV immediately.
+
+Do not force users to browse.
+
+---
+
+# FAQ Intent
+
+FAQ should remove hesitation.
+
+Questions should come from
+
+Google People Also Ask
+
+Customer Calls
+
+WhatsApp Queries
+
+Google Search Console
+
+Future AI Search Queries
+
+---
+
+# Search Funnel
+
+Google Search
+
+↓
+
+Landing Page
+
+↓
+
+Trust
+
+↓
+
+Vehicle
+
+↓
+
+CTA
+
+↓
+
+Lead
+
+↓
+
+Booking
+
+↓
+
+Review
+
+↓
+
+Repeat Customer
+
+---
+
+# Google Ads Intent
+
+Every Ad Group
+
+↓
+
+One Intent
+
+↓
+
+One Landing Page
+
+↓
+
+One Primary CTA
+
+Never mix
+
+Airport
+
+Taxi
+
+Self Drive
+
+on one ad.
+
+---
+
+# Meta Ads Intent
+
+Cold Audience
+
+↓
+
+Problem
+
+↓
+
+Solution
+
+↓
+
+Landing Page
+
+↓
+
+WhatsApp
+
+↓
+
+Booking
+
+---
+
+# SEO Intent
+
+Homepage
+
+Brand Intent
+
+Self Drive Page
+
+Self Drive Intent
+
+Taxi Page
+
+Taxi Intent
+
+Airport Page
+
+Airport Intent
+
+Vehicle Pages
+
+Vehicle Intent
+
+Blog
+
+Informational Intent
+
+---
+
+# Local SEO Intent
+
+MP Nagar
+
+↓
+
+Self Drive
+
+Airport
+
+Taxi
+
+Outstation
+
+Each important locality can become a future landing page.
+
+---
+
+# AI Search Optimization
+
+Content should answer questions naturally.
+
+Avoid robotic keyword repetition.
+
+Use
+
+Question
+
+↓
+
+Answer
+
+↓
+
+Example
+
+↓
+
+CTA
+
+This improves AI readability.
+
+---
+
+# Future Intent Expansion
+
+Luxury Cars
+
+Bike Rental
+
+Tempo Traveller
+
+Hourly Rental
+
+Wedding Cars
+
+Driver On Hire
+
+Corporate Fleet
+
+Each becomes a dedicated landing page.
+
+---
+
+# Search Intent Validation Checklist
+
+✓ User Problem Identified
+
+✓ Correct Landing Page
+
+✓ Correct CTA
+
+✓ Correct Keywords
+
+✓ Correct Heading
+
+✓ Correct Images
+
+✓ Correct Trust Signals
+
+✓ Correct FAQ
+
+✓ Correct Form
+
+✓ Correct SEO Structure
+
+✓ Correct Internal Links
+
+✓ Correct Ads Mapping
+
+---
+
+# Golden Rule
+
+Never design first.
+
+Never write copy first.
+
+Never run ads first.
+
+Always start with
+
+Search Intent
+
+↓
+
+Customer Psychology
+
+↓
+
+Landing Page
+
+↓
+
+Copywriting
+
+↓
+
+SEO
+
+↓
+
+Ads
+
+This order ensures the highest probability of achieving low CPC, high Quality Score, strong SEO relevance and better conversion rates.
+
+---
+
+END OF 04_Search_Intent.md

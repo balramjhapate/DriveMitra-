@@ -1,0 +1,683 @@
+# 13_Schema_Markup.md
+
+# Purpose
+
+This document defines the complete structured data strategy for the website.
+
+The objective is to improve
+
+- Rich Results
+- Google Understanding
+- AI Search Understanding
+- Local SEO
+- Voice Search
+- CTR
+- Entity Recognition
+
+Schema is not only for rankings.
+
+It helps search engines understand
+
+Who you are
+
+What services you provide
+
+Where you operate
+
+How users can contact you
+
+What pages exist
+
+How the website is structured
+
+---
+
+# Schema Philosophy
+
+Every important page should have structured data.
+
+Never use unnecessary schema.
+
+Never generate fake ratings.
+
+Never generate fake reviews.
+
+Everything must reflect actual website content.
+
+---
+
+# Schema Priority
+
+Homepage
+
+Organization
+
+WebSite
+
+LocalBusiness
+
+Breadcrumb
+
+---
+
+Service Pages
+
+Service
+
+FAQ
+
+Breadcrumb
+
+LocalBusiness
+
+---
+
+Future
+
+Review
+
+Product
+
+Vehicle
+
+Offer
+
+Video
+
+Article
+
+---
+
+# Homepage Schema Stack
+
+Organization
+
+↓
+
+WebSite
+
+↓
+
+LocalBusiness
+
+↓
+
+Breadcrumb
+
+↓
+
+SearchAction
+
+---
+
+# Organization Schema
+
+Purpose
+
+Identify Brand
+
+Properties
+
+Name
+
+Logo
+
+URL
+
+Email
+
+Phone
+
+Social Profiles
+
+Description
+
+Founding Location
+
+SameAs
+
+---
+
+# LocalBusiness Schema
+
+Business Type
+
+Car Rental Agency
+
+Properties
+
+Business Name
+
+Address
+
+Phone
+
+Email
+
+Website
+
+Opening Hours
+
+Latitude
+
+Longitude
+
+Area Served
+
+Google Maps URL
+
+Price Range
+
+---
+
+# WebSite Schema
+
+Purpose
+
+Help Google understand the website.
+
+Include
+
+Website Name
+
+URL
+
+Search Action
+
+Publisher
+
+Language
+
+---
+
+# SearchAction Schema
+
+Purpose
+
+Enable search box support where applicable.
+
+Search URL
+
+/search?q={search_term_string}
+
+Future Ready
+
+---
+
+# Breadcrumb Schema
+
+Required On
+
+Every Internal Page
+
+Example
+
+Home
+
+↓
+
+Self Drive
+
+↓
+
+Ertiga
+
+---
+
+Benefits
+
+Better SERP Structure
+
+AI Understanding
+
+Navigation
+
+---
+
+# FAQ Schema
+
+Use only for visible FAQs.
+
+Never hide FAQ content.
+
+Typical Questions
+
+How do I book?
+
+Do you provide self drive cars?
+
+Do you provide airport taxi?
+
+Which documents are required?
+
+How can I contact support?
+
+Do you provide outstation taxi?
+
+---
+
+# Service Schema
+
+Required
+
+Every Service Page
+
+Examples
+
+Self Drive Cars
+
+Taxi Service
+
+Airport Pickup
+
+Outstation Taxi
+
+Corporate Rental
+
+Monthly Rental
+
+Properties
+
+Service Name
+
+Area Served
+
+Provider
+
+Description
+
+URL
+
+Image
+
+---
+
+# Vehicle Schema (Future)
+
+Use when dedicated vehicle pages exist.
+
+Examples
+
+Ertiga
+
+Innova
+
+Swift
+
+Scorpio
+
+Properties
+
+Vehicle Type
+
+Transmission
+
+Fuel
+
+Seats
+
+Image
+
+Description
+
+Availability
+
+---
+
+# Review Schema
+
+Only use
+
+Real Reviews
+
+Never create fake ratings.
+
+Properties
+
+Customer
+
+Rating
+
+Review
+
+Date
+
+---
+
+# Aggregate Rating
+
+Only if genuine review system exists.
+
+Never hardcode ratings.
+
+---
+
+# ContactPoint Schema
+
+Purpose
+
+Customer Support
+
+Properties
+
+Phone
+
+Email
+
+Contact Type
+
+Available Language
+
+Area Served
+
+---
+
+# Logo Schema
+
+Use
+
+SVG
+
+PNG
+
+High Resolution
+
+Transparent Background
+
+---
+
+# Social Profile Schema
+
+Facebook
+
+Instagram
+
+YouTube (Future)
+
+LinkedIn (Future)
+
+X (Optional)
+
+---
+
+# ImageObject Schema
+
+Hero Image
+
+Fleet Images
+
+Service Images
+
+Office Images
+
+Vehicle Images
+
+Each image should include
+
+URL
+
+Width
+
+Height
+
+Caption
+
+---
+
+# VideoObject Schema (Future)
+
+Fleet Walkaround
+
+Office Tour
+
+Booking Guide
+
+Road Trip
+
+Customer Story
+
+Properties
+
+Thumbnail
+
+Duration
+
+Upload Date
+
+Description
+
+---
+
+# Article Schema (Future Blog)
+
+Travel Guides
+
+Road Trips
+
+Airport Tips
+
+Weekend Trips
+
+Vehicle Comparison
+
+---
+
+# CollectionPage Schema
+
+Future
+
+Fleet Listing
+
+Vehicle Categories
+
+City Pages
+
+---
+
+# ItemList Schema
+
+Useful For
+
+Fleet Grid
+
+Popular Vehicles
+
+Service Lists
+
+Top Locations
+
+---
+
+# Event Schema (Future)
+
+Offers
+
+Travel Events
+
+Seasonal Campaigns
+
+---
+
+# Offer Schema (Future)
+
+Festival Discounts
+
+Weekend Packages
+
+Corporate Plans
+
+Only use if offers actually exist.
+
+---
+
+# Robots Rules
+
+Allow
+
+Important Pages
+
+Disallow
+
+Admin
+
+Private APIs
+
+Temporary Pages
+
+---
+
+# XML Sitemap
+
+Include
+
+Homepage
+
+Service Pages
+
+Fleet Pages
+
+Blog
+
+Policies
+
+Contact
+
+Exclude
+
+404
+
+Search Results
+
+Duplicate URLs
+
+---
+
+# Canonical Rules
+
+Every page
+
+Self Referencing Canonical
+
+No duplicate URLs.
+
+---
+
+# Open Graph
+
+Every page requires
+
+Title
+
+Description
+
+Image
+
+URL
+
+Type
+
+---
+
+# Twitter Card
+
+Summary Large Image
+
+Title
+
+Description
+
+Image
+
+---
+
+# JSON-LD Placement
+
+Insert
+
+Inside <head>
+
+Server Rendered
+
+Never duplicate the same schema.
+
+---
+
+# Validation
+
+Validate using
+
+Google Rich Results Test
+
+Schema Validator
+
+Search Console
+
+Fix all warnings that affect important entities.
+
+---
+
+# Future AI Optimization
+
+Structure content so AI systems can identify:
+
+Business
+
+Services
+
+Locations
+
+Vehicles
+
+Contact Methods
+
+Booking Process
+
+FAQs
+
+Use descriptive headings and semantic HTML.
+
+---
+
+# Schema Implementation Checklist
+
+✓ Organization
+
+✓ LocalBusiness
+
+✓ WebSite
+
+✓ SearchAction
+
+✓ Breadcrumb
+
+✓ FAQ
+
+✓ Service
+
+✓ ContactPoint
+
+✓ Logo
+
+✓ Open Graph
+
+✓ Twitter Card
+
+✓ Canonical
+
+✓ XML Sitemap
+
+✓ Robots.txt
+
+✓ JSON-LD
+
+✓ ImageObject (Future)
+
+✓ Vehicle Schema (Future)
+
+✓ Review Schema (When Real Reviews Exist)
+
+✓ Offer Schema (Only When Applicable)
+
+---
+
+END OF 13_Schema_Markup.md

@@ -1,0 +1,833 @@
+# 16_Antigravity_Master_Instruction.md
+
+# Purpose
+
+This is the **MASTER IMPLEMENTATION DOCUMENT**.
+
+This document controls the entire implementation process.
+
+Every markdown file in this project must be considered a module.
+
+This document tells Antigravity how to read them, merge them, prioritize them and finally build the application.
+
+This document has higher priority than implementation assumptions.
+
+Never ignore this file.
+
+---
+
+# Primary Objective
+
+Build a production-grade, premium Car Rental platform.
+
+Not a landing page.
+
+Not a template.
+
+Not a demo.
+
+A scalable software product.
+
+---
+
+# Core Mission
+
+Create a platform that feels comparable to
+
+Stripe
+
+Uber
+
+Airbnb
+
+Linear
+
+Apple
+
+Notion
+
+Framer
+
+NOT
+
+Typical Indian local business websites.
+
+---
+
+# Before Writing A Single Line Of Code
+
+DO NOT CODE.
+
+Read every markdown completely.
+
+Create an internal understanding.
+
+Understand
+
+Business
+
+↓
+
+Customer
+
+↓
+
+Search Intent
+
+↓
+
+Marketing
+
+↓
+
+SEO
+
+↓
+
+Google Ads
+
+↓
+
+Meta Ads
+
+↓
+
+Copywriting
+
+↓
+
+UI
+
+↓
+
+UX
+
+↓
+
+Animations
+
+↓
+
+Next.js Architecture
+
+↓
+
+Tracking
+
+↓
+
+Schema
+
+↓
+
+Launch Checklist
+
+Only after everything is understood,
+
+begin implementation.
+
+---
+
+# Markdown Reading Order
+
+Read ONLY in this order.
+
+00_Project_Overview.md
+
+↓
+
+01_Business_Research.md
+
+↓
+
+02_Competitor_Analysis.md
+
+↓
+
+03_Keyword_Research.md
+
+↓
+
+04_Search_Intent.md
+
+↓
+
+05_Landing_Page_Architecture.md
+
+↓
+
+06_UI_UX_Design_System.md
+
+↓
+
+07_Copywriting.md
+
+↓
+
+08_SEO_Blueprint.md
+
+↓
+
+09_Image_Guide.md
+
+↓
+
+10_NextJS_Architecture.md
+
+↓
+
+11_Google_Ads_Blueprint.md
+
+↓
+
+12_Meta_Ads_Blueprint.md
+
+↓
+
+13_Schema_Markup.md
+
+↓
+
+14_Tracking_Analytics.md
+
+↓
+
+15_Launch_Checklist.md
+
+↓
+
+16_Antigravity_Master_Instruction.md
+
+---
+
+# Never Skip Documents
+
+Never ignore any markdown.
+
+Never assume.
+
+Never overwrite.
+
+Never create your own architecture if documentation already exists.
+
+---
+
+# Documentation Priority
+
+If multiple markdown files discuss the same feature
+
+Priority
+
+1
+
+Specific Document
+
+2
+
+Latest Document
+
+3
+
+Business Goal
+
+4
+
+User Experience
+
+5
+
+Scalability
+
+Never randomly choose.
+
+---
+
+# Master Design Rules
+
+Design must feel
+
+Premium
+
+Luxury
+
+Professional
+
+Fast
+
+Minimal
+
+Human
+
+Technology Driven
+
+Never
+
+Corporate Template
+
+WordPress Theme
+
+Bootstrap
+
+AI Generated Layout
+
+---
+
+# Coding Philosophy
+
+Think first.
+
+Architect second.
+
+Code third.
+
+Never
+
+Code First.
+
+---
+
+# Component Philosophy
+
+Every section
+
+↓
+
+Reusable Component
+
+Every card
+
+↓
+
+Reusable Component
+
+Every button
+
+↓
+
+Reusable Component
+
+Every form
+
+↓
+
+Reusable Component
+
+Everything configurable.
+
+Nothing hardcoded.
+
+---
+
+# Folder Philosophy
+
+No unnecessary nesting.
+
+No duplicate folders.
+
+No duplicate logic.
+
+Every folder has one responsibility.
+
+---
+
+# Styling Rules
+
+Only Tailwind CSS.
+
+No inline styling.
+
+No duplicated utility combinations.
+
+Create reusable patterns.
+
+---
+
+# Animation Rules
+
+Motion should guide.
+
+Not entertain.
+
+Maximum
+
+400ms
+
+Never create flashy animations.
+
+Never reduce readability.
+
+---
+
+# Accessibility Rules
+
+WCAG AA
+
+Semantic HTML
+
+Keyboard Navigation
+
+Visible Focus
+
+Screen Reader Friendly
+
+Alt Text
+
+Proper Labels
+
+Minimum Touch Target
+
+44px
+
+Accessibility is mandatory.
+
+---
+
+# Performance Rules
+
+Target
+
+Performance
+
+95+
+
+SEO
+
+100
+
+Accessibility
+
+95+
+
+Best Practices
+
+100
+
+Never sacrifice speed for visuals.
+
+---
+
+# Responsive Rules
+
+Mobile First
+
+↓
+
+Tablet
+
+↓
+
+Laptop
+
+↓
+
+Desktop
+
+↓
+
+Ultra Wide
+
+Every breakpoint should be intentionally designed.
+
+Never stretch layouts.
+
+---
+
+# Image Rules
+
+Follow
+
+09_Image_Guide.md
+
+exactly.
+
+Never use random images.
+
+Never use fake AI faces.
+
+Never distort aspect ratios.
+
+---
+
+# SEO Rules
+
+Follow
+
+08_SEO_Blueprint.md
+
+exactly.
+
+Never invent SEO.
+
+Never keyword stuff.
+
+Every page must have
+
+Title
+
+Meta
+
+Schema
+
+Canonical
+
+Open Graph
+
+Internal Links
+
+Proper Headings
+
+---
+
+# Google Ads Rules
+
+Landing Page
+
+↓
+
+Keyword
+
+↓
+
+Ad
+
+must always match.
+
+Maintain message match.
+
+Maintain intent match.
+
+Maintain CTA match.
+
+---
+
+# Meta Ads Rules
+
+Original Creatives.
+
+Original Messaging.
+
+Never copy competitors.
+
+Follow
+
+12_Meta_Ads_Blueprint.md
+
+---
+
+# Copywriting Rules
+
+Never rewrite approved copy unless technically required.
+
+Maintain
+
+Tone
+
+Hierarchy
+
+CTA
+
+Trust
+
+Benefits
+
+Readability
+
+---
+
+# Design Tokens
+
+Colors
+
+Typography
+
+Spacing
+
+Radius
+
+Icons
+
+Motion
+
+Shadows
+
+must come only from
+
+06_UI_UX_Design_System.md
+
+Never invent new tokens.
+
+---
+
+# Future Expansion Rules
+
+Everything should support
+
+Multi City
+
+↓
+
+Multi Vendor
+
+↓
+
+Marketplace
+
+↓
+
+Customer Dashboard
+
+↓
+
+Vendor Dashboard
+
+↓
+
+Booking Engine
+
+↓
+
+Payments
+
+↓
+
+CRM
+
+↓
+
+AI
+
+Never build single-purpose architecture.
+
+---
+
+# Tracking Rules
+
+Every important interaction must be measurable.
+
+Track
+
+Page View
+
+CTA
+
+Phone
+
+WhatsApp
+
+Lead
+
+Vehicle Click
+
+FAQ
+
+Scroll
+
+Booking
+
+Future Purchase
+
+---
+
+# Error Handling
+
+Every interaction
+
+must have
+
+Loading
+
+Success
+
+Failure
+
+Retry
+
+Empty State
+
+Never leave users confused.
+
+---
+
+# Acceptance Criteria
+
+Every feature is complete only if
+
+✓ Responsive
+
+✓ Accessible
+
+✓ Reusable
+
+✓ SEO Ready
+
+✓ Performance Optimized
+
+✓ Analytics Connected
+
+✓ Schema Ready
+
+✓ Google Ads Ready
+
+✓ Meta Ads Ready
+
+✓ Production Ready
+
+---
+
+# Conflict Resolution
+
+If documentation conflicts
+
+Follow
+
+Business Goals
+
+↓
+
+Search Intent
+
+↓
+
+Landing Page Architecture
+
+↓
+
+Design System
+
+↓
+
+Copywriting
+
+↓
+
+SEO
+
+↓
+
+Technical Architecture
+
+↓
+
+Tracking
+
+Never guess.
+
+---
+
+# Implementation Order
+
+1
+
+Global Layout
+
+2
+
+Design Tokens
+
+3
+
+Header
+
+4
+
+Hero
+
+5
+
+Lead Form
+
+6
+
+Trust
+
+7
+
+Services
+
+8
+
+Fleet
+
+9
+
+Why Choose Us
+
+10
+
+Booking Steps
+
+11
+
+Locations
+
+12
+
+Testimonials
+
+13
+
+FAQ
+
+14
+
+Final CTA
+
+15
+
+Footer
+
+16
+
+Tracking
+
+17
+
+Schema
+
+18
+
+SEO
+
+19
+
+Optimization
+
+20
+
+Testing
+
+---
+
+# Final Goal
+
+Do not build a landing page.
+
+Build a product.
+
+A product that can evolve into
+
+India's premium car rental marketplace.
+
+Every implementation decision should move the project toward that vision.
+
+---
+
+# Final Instruction
+
+Do not rush.
+
+Think like a Senior Staff Engineer.
+
+Think like a Product Designer.
+
+Think like a CRO Expert.
+
+Think like a Performance Engineer.
+
+Think like a Technical SEO Engineer.
+
+Think like a User.
+
+Then build.
+
+END OF 16_Antigravity_Master_Instruction.md
