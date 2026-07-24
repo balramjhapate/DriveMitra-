@@ -1,24 +1,24 @@
 "use client";
 
+import { useState } from "react";
 import { VEHICLES } from "@/constants/vehicles";
+import { siteConfig } from "@/config/site";
 import { Users, Briefcase, Zap } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import InquiryModal from "@/components/forms/InquiryModal";
 
 export default function Fleet() {
-  const handleScrollToForm = (e: React.MouseEvent<HTMLAnchorElement>, vehicleName: string) => {
-    e.preventDefault();
-    const element = document.querySelector("#booking-form");
-    if (element) {
-      // Set the select element value dynamically
-      const selectElement = document.querySelector("#vehicle") as HTMLSelectElement;
-      if (selectElement) {
-        selectElement.value = vehicleName;
-        // Trigger onChange event for react-hook-form
-        const event = new Event("change", { bubbles: true });
-        selectElement.dispatchEvent(event);
-      }
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+  const [selectedVehicle, setSelectedVehicle] = useState<{ name: string; price: string } | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openInquiry = (name: string, price: string) => {
+    setSelectedVehicle({ name, price });
+    setIsModalOpen(true);
+  };
+
+  const closeInquiry = () => {
+    setIsModalOpen(false);
+    setSelectedVehicle(null);
   };
 
   return (
@@ -59,21 +59,30 @@ export default function Fleet() {
                 className="bg-white rounded-card shadow-soft hover:shadow-medium border border-slate-100 p-6 flex flex-col justify-between min-w-[290px] sm:min-w-[340px] lg:min-w-0 snap-center shrink-0 transition-all duration-300"
               >
                 <div>
-                  {/* Stylized premium schematic vector box in place of physical image to look premium like Stripe/Linear */}
+                  {/* Stylized premium schematic vector box with black price badge */}
                   <div className="w-full h-48 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl mb-6 relative overflow-hidden flex flex-col items-center justify-center p-6 text-white/90">
                     {/* Decorative abstract mesh overlay */}
                     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(249,115,22,0.12),transparent)] pointer-events-none" />
+                    
+                    {/* Black Price Badge (top-left) */}
+                    <div className="absolute top-3 left-3 bg-black text-white text-xs font-bold px-3 py-1.5 rounded-md shadow-md z-10">
+                      {vehicle.price}
+                    </div>
+
                     <div className="absolute top-3 right-3 flex gap-1.5">
-                      {vehicle.tags.map((tag) => (
+                      {vehicle.tags.slice(0, 1).map((tag) => (
                         <span key={tag} className="text-[10px] font-bold bg-white/10 backdrop-blur-md text-accent-300 border border-white/10 px-2 py-0.5 rounded-full">
                           {tag}
                         </span>
                       ))}
                     </div>
+
                     {/* stylized outline/icon vector text representation */}
                     <div className="text-center">
                       <div className="text-[10px] uppercase font-bold tracking-widest text-slate-400 mb-1">Premium Rental</div>
-                      <div className="text-xl font-bold font-heading text-white">{vehicle.name.split(" ").slice(2).join(" ") || vehicle.name}</div>
+                      <div className="text-xl font-bold font-heading text-white">
+                        {vehicle.name.split(" ").slice(1).join(" ") || vehicle.name}
+                      </div>
                       <div className="text-xs text-accent-400 font-medium mt-1">{vehicle.transmission} • {vehicle.fuel}</div>
                     </div>
                     {/* visual vector overlay graphic */}
@@ -84,10 +93,13 @@ export default function Fleet() {
                   </div>
 
                   {/* Vehicle Details */}
-                  <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-lg font-bold font-heading text-primary-950">
+                  <div className="mb-4">
+                    <h3 className="text-lg font-bold font-heading text-primary-950 mb-1">
                       {vehicle.name}
                     </h3>
+                    <p className="text-[11px] text-slate-400 font-extrabold uppercase tracking-wider">
+                      {vehicle.transmission} {vehicle.fuel} {vehicle.seats} Seater...
+                    </p>
                   </div>
 
                   {/* Specs Strip */}
@@ -113,18 +125,19 @@ export default function Fleet() {
                   </p>
                 </div>
 
-                {/* Price & CTA */}
-                <div className="flex items-center justify-between gap-4 pt-4 border-t border-slate-50 mt-auto">
-                  <div>
-                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Rental Rate</p>
-                    <p className="text-sm font-bold text-primary-950 font-heading">{vehicle.price}</p>
-                  </div>
-                  <a
-                    href="#booking-form"
-                    onClick={(e) => handleScrollToForm(e, vehicle.name)}
-                    className="bg-accent-500 hover:bg-accent-600 text-white font-bold px-5 py-3 rounded-btn text-xs shadow-glow transition-all active:scale-[0.98]"
+                {/* Card Action Buttons (Inquiry & Call Now) */}
+                <div className="flex items-center gap-3 pt-4 border-t border-slate-50 mt-auto">
+                  <button
+                    onClick={() => openInquiry(vehicle.name, vehicle.price || "")}
+                    className="flex-1 bg-accent-500 hover:bg-accent-600 text-white font-bold py-2.5 rounded-btn text-sm shadow-soft transition-all active:scale-[0.98] text-center cursor-pointer"
                   >
-                    Book Now
+                    Inquiry
+                  </button>
+                  <a
+                    href={`tel:${siteConfig.phone}`}
+                    className="flex-1 border border-blue-500 text-blue-600 hover:bg-blue-50 font-bold py-2.5 rounded-btn text-sm text-center transition-colors"
+                  >
+                    Call Now
                   </a>
                 </div>
               </motion.div>
@@ -132,6 +145,18 @@ export default function Fleet() {
           })}
         </div>
       </div>
+
+      {/* Inquiry Modal */}
+      <AnimatePresence>
+        {isModalOpen && selectedVehicle && (
+          <InquiryModal
+            isOpen={isModalOpen}
+            onClose={closeInquiry}
+            carName={selectedVehicle.name}
+            carPrice={selectedVehicle.price}
+          />
+        )}
+      </AnimatePresence>
     </section>
   );
 }
