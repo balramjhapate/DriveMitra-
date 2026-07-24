@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,12 +26,35 @@ export default function Header() {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "Self Drive", href: "#services" },
-    { name: "Taxi", href: "#services" },
-    { name: "Airport", href: "#services" },
+    { name: "Taxi", href: "#taxi" },
+    { name: "Airport", href: "#airport" },
     { name: "Fleet", href: "#fleet" },
     { name: "Why Us", href: "#why-choose-us" },
     { name: "FAQ", href: "#faq" },
   ];
+
+  // Scroll-spy: highlight the nav link for the section currently in view.
+  useEffect(() => {
+    const sectionIds = ["home", "services", "taxi", "airport", "fleet", "why-choose-us", "faq"];
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActiveSection(entry.target.id);
+        });
+      },
+      // Thin band around the upper-middle of the viewport acts as the trigger line.
+      { rootMargin: "-45% 0px -55% 0px", threshold: 0 }
+    );
+    sectionIds.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+    return () => observer.disconnect();
+  }, []);
+
+  // Only the first nav link matching the active section gets highlighted
+  // (Self Drive / Taxi / Airport all point to #services).
+  const activeIndex = navLinks.findIndex((link) => link.href === `#${activeSection}`);
 
   const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -62,16 +86,28 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                onClick={(e) => handleScrollTo(e, link.href)}
-                className="text-primary-800 hover:text-accent-500 font-medium transition-colors text-[15px]"
-              >
-                {link.name}
-              </a>
-            ))}
+            {navLinks.map((link, index) => {
+              const isActive = index === activeIndex;
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={(e) => handleScrollTo(e, link.href)}
+                  className={`relative font-medium transition-colors text-[15px] ${
+                    isActive ? "text-accent-500" : "text-primary-800 hover:text-accent-500"
+                  }`}
+                >
+                  {link.name}
+                  {isActive && (
+                    <motion.span
+                      layoutId="nav-underline"
+                      className="absolute -bottom-1.5 left-0 right-0 h-0.5 bg-accent-500 rounded-full"
+                      transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                    />
+                  )}
+                </a>
+              );
+            })}
           </nav>
 
           {/* Desktop CTAs */}
@@ -134,16 +170,23 @@ export default function Header() {
             className="fixed inset-x-0 top-[72px] z-40 bg-white shadow-medium border-t border-slate-100 py-6 px-5 lg:hidden flex flex-col gap-5"
           >
             <div className="flex flex-col gap-4">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  onClick={(e) => handleScrollTo(e, link.href)}
-                  className="text-primary-900 font-medium py-2 border-b border-slate-50 text-base"
-                >
-                  {link.name}
-                </a>
-              ))}
+              {navLinks.map((link, index) => {
+                const isActive = index === activeIndex;
+                return (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    onClick={(e) => handleScrollTo(e, link.href)}
+                    className={`font-medium py-2 border-b border-slate-50 text-base transition-colors ${
+                      isActive
+                        ? "text-accent-500 border-l-2 border-l-accent-500 pl-3"
+                        : "text-primary-900"
+                    }`}
+                  >
+                    {link.name}
+                  </a>
+                );
+              })}
             </div>
             <div className="flex flex-col gap-3 mt-2">
               <a

@@ -1,6 +1,8 @@
 import Hero from "@/components/hero/Hero";
 import TrustBar from "@/components/sections/TrustBar";
 import Services from "@/components/sections/Services";
+import TaxiService from "@/components/sections/TaxiService";
+import AirportService from "@/components/sections/AirportService";
 import Fleet from "@/components/sections/Fleet";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import BookingSteps from "@/components/sections/BookingSteps";
@@ -20,6 +22,12 @@ export default function Home() {
 
       {/* 03 Service Categories Grid */}
       <Services />
+
+      {/* 03a Taxi With Driver */}
+      <TaxiService />
+
+      {/* 03b Airport Pickup & Drop */}
+      <AirportService />
 
       {/* 04 Fleet Grid / Horizontal Swipe */}
       <Fleet />

@@ -1,6 +1,7 @@
 "use client";
 
 import BookingForm from "@/components/forms/BookingForm";
+import HeroBackground from "@/components/hero/HeroBackground";
 import { siteConfig } from "@/config/site";
 import { Phone, Star } from "lucide-react";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
@@ -18,11 +19,10 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative min-h-[90vh] lg:min-h-screen pt-28 lg:pt-36 pb-12 flex items-center bg-gradient-to-b from-slate-50 to-white overflow-hidden">
-      {/* Background soft circular gradient */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-accent-100/30 blur-3xl -z-10" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-primary-100/40 blur-3xl -z-10" />
+      {/* Decorative SVG backdrop (dots, blobs, animated route, wave divider) */}
+      <HeroBackground />
 
-      <div className="container-custom grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div className="container-custom relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Left: Copy content */}
         <div className="lg:col-span-7 flex flex-col items-start text-left">
           {/* Trust Stars Badges */}

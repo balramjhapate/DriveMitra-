@@ -78,7 +78,7 @@ export default function Fleet() {
                       <img
                         src={`/${vehicle.imageName}`}
                         alt={vehicle.name}
-                        className="w-full h-full object-contain p-2"
+                        className="w-full h-full object-cover"
                       />
                     ) : (
                       <div className="w-full h-full bg-gradient-to-br from-slate-900 to-indigo-950 flex flex-col items-center justify-center p-6">
