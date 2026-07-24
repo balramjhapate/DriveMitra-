@@ -43,7 +43,7 @@ export const VEHICLES: Vehicle[] = [
     price: "₹2000/day",
     tags: ["Most Popular", "CNG+Petrol"],
     suitableFor: "Affordable premium sedan for daily commuting",
-    imageName: "dzire-rental.webp",
+    imageName: "dzire-rental.jpg",
   },
   {
     name: "Vitara Brezza 2023",
@@ -54,7 +54,7 @@ export const VEHICLES: Vehicle[] = [
     price: "₹2500/day",
     tags: ["Weekend Special", "Compact SUV"],
     suitableFor: "High ground clearance, reliable off-road capability",
-    imageName: "brezza-rental.webp",
+    imageName: "brezza-rental.jpg",
   },
   {
     name: "Hyundai Nios",
@@ -76,7 +76,7 @@ export const VEHICLES: Vehicle[] = [
     price: "₹3300/day",
     tags: ["Premium SUV", "Diesel"],
     suitableFor: "Premium luxury ride with spacious interiors",
-    imageName: "creta-rental.webp",
+    imageName: "creta-rental.png",
   },
   {
     name: "Kia Seltos",
@@ -121,5 +121,16 @@ export const VEHICLES: Vehicle[] = [
     tags: ["Eco Saver", "Petrol"],
     suitableFor: "Affordable hatchback for easy city navigation",
     imageName: "tiago-rental.jpg",
+  },
+  {
+    name: "Maruti Suzuki Baleno",
+    transmission: "Manual",
+    fuel: "Petrol",
+    seats: 5,
+    luggage: "2 Bags",
+    price: "₹1800/day",
+    tags: ["Hatchback Premium", "Petrol"],
+    suitableFor: "Premium hatchback comfort for city and highway",
+    imageName: "baleno-rental.jpg",
   },
 ];
