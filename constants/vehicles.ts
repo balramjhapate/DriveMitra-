@@ -10,7 +10,7 @@ export const VEHICLES: Vehicle[] = [
     price: "₹2500/day",
     tags: ["Best SUV", "Manual", "Diesel"],
     suitableFor: "Comfortable city driving and highway cruises",
-    imageName: "venue-rental.webp",
+    imageName: "venue-rental.png",
   },
   {
     name: "Maruti Ertiga New",
@@ -65,7 +65,7 @@ export const VEHICLES: Vehicle[] = [
     price: "₹1800/day",
     tags: ["Budget Friendly", "Petrol"],
     suitableFor: "Super fuel-efficient hatchback for local rides",
-    imageName: "nios-rental.webp",
+    imageName: "nios-rental.jpg",
   },
   {
     name: "Hyundai Creta",
