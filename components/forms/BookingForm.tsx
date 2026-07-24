@@ -17,8 +17,8 @@ const bookingSchema = z.object({
   }),
   service: z.string().min(1, { message: "Please select a service." }),
   vehicle: z.string().min(1, { message: "Please select a vehicle." }),
-  date: z.string().min(1, { message: "Please select a travel date." }),
-  time: z.string().min(1, { message: "Please select a pickup time." }),
+  fromDate: z.string().min(1, { message: "Please select a start date." }),
+  toDate: z.string().min(1, { message: "Please select an end date." }),
 });
 
 type BookingFormData = z.infer<typeof bookingSchema>;
@@ -52,10 +52,14 @@ export default function BookingForm() {
 
 I would like to book a vehicle.
 
-Travel Date: ${data.date} at ${data.time}
+From Date: ${data.fromDate}
+To Date: ${data.toDate}
 Pickup Location: Bhopal
 Selected Service: ${data.service}
 Preferred Vehicle: ${data.vehicle} (${seats})
+
+Customer Name: ${data.name}
+Phone: ${data.phone}
 
 Please share availability.`;
 
@@ -186,49 +190,42 @@ Please share availability.`;
           {errors.vehicle && <p className="text-xs text-red-500 mt-1">{errors.vehicle.message}</p>}
         </div>
 
-        {/* Date & Time Grid */}
+        {/* From Date & To Date Grid */}
         <div className="grid grid-cols-2 gap-3">
           <div>
-            <label htmlFor="date" className="block text-xs font-semibold text-primary-900 uppercase tracking-wider mb-1.5">
-              Pickup Date
+            <label htmlFor="fromDate" className="block text-xs font-semibold text-primary-900 uppercase tracking-wider mb-1.5">
+              From Date
             </label>
             <input
               type="date"
-              id="date"
+              id="fromDate"
               min={new Date().toISOString().split("T")[0]}
-              {...register("date")}
+              {...register("fromDate")}
               className={`w-full px-4 py-3 rounded-form border text-sm text-primary-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 transition-all ${
-                errors.date
+                errors.fromDate
                   ? "border-red-500 focus:ring-red-200"
                   : "border-slate-200 focus:border-accent-500 focus:ring-accent-100"
               }`}
             />
-            {errors.date && <p className="text-xs text-red-500 mt-1">{errors.date.message}</p>}
+            {errors.fromDate && <p className="text-xs text-red-500 mt-1">{errors.fromDate.message}</p>}
           </div>
 
           <div>
-            <label htmlFor="time" className="block text-xs font-semibold text-primary-900 uppercase tracking-wider mb-1.5">
-              Pickup Time
+            <label htmlFor="toDate" className="block text-xs font-semibold text-primary-900 uppercase tracking-wider mb-1.5">
+              To Date
             </label>
-            <select
-              id="time"
-              defaultValue=""
-              {...register("time")}
+            <input
+              type="date"
+              id="toDate"
+              min={new Date().toISOString().split("T")[0]}
+              {...register("toDate")}
               className={`w-full px-4 py-3 rounded-form border text-sm text-primary-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 transition-all ${
-                errors.time
+                errors.toDate
                   ? "border-red-500 focus:ring-red-200"
                   : "border-slate-200 focus:border-accent-500 focus:ring-accent-100"
               }`}
-            >
-              <option value="" disabled>Select time</option>
-              {Array.from({ length: 24 }).map((_, index) => {
-                const hour = index.toString().padStart(2, "0");
-                return (
-                  <option key={index} value={`${hour}:00`}>{`${hour}:00`}</option>
-                );
-              })}
-            </select>
-            {errors.time && <p className="text-xs text-red-500 mt-1">{errors.time.message}</p>}
+            />
+            {errors.toDate && <p className="text-xs text-red-500 mt-1">{errors.toDate.message}</p>}
           </div>
         </div>
 
