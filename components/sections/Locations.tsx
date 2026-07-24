@@ -37,7 +37,7 @@ export default function Locations() {
 
 
   return (
-    <section id="locations" className="py-24 bg-white scroll-mt-20">
+    <section id="locations" className="py-16 sm:py-24 bg-white scroll-mt-20">
       <div className="container-custom">
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto mb-16">

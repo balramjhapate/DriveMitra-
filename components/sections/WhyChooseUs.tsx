@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section id="why-choose-us" className="py-24 bg-white scroll-mt-20">
+    <section id="why-choose-us" className="py-16 sm:py-24 bg-white scroll-mt-20">
       <div className="container-custom">
         {/* Section Title */}
         <div className="max-w-2xl mb-16 text-left">

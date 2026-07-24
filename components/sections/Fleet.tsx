@@ -22,7 +22,7 @@ export default function Fleet() {
   };
 
   return (
-    <section id="fleet" className="py-24 bg-slate-50/50 scroll-mt-20">
+    <section id="fleet" className="py-16 sm:py-24 bg-slate-50/50 scroll-mt-20">
       <div className="container-custom">
         {/* Section Headings */}
         <div className="text-center max-w-2xl mx-auto mb-16">
@@ -59,7 +59,7 @@ export default function Fleet() {
                 className="bg-white rounded-card shadow-soft hover:shadow-medium border border-slate-100 p-6 flex flex-col justify-between min-w-[290px] sm:min-w-[340px] lg:min-w-0 snap-center shrink-0 transition-all duration-300"
               >
                 <div>
-                  <div className="w-full h-48 bg-slate-100 rounded-2xl mb-6 relative overflow-hidden flex flex-col items-center justify-center text-white/90">
+                  <div className="w-full aspect-[16/10] sm:aspect-video bg-slate-100 rounded-2xl mb-6 relative overflow-hidden flex flex-col items-center justify-center text-white/90">
                     {/* Black Price Badge (top-left) */}
                     <div className="absolute top-3 left-3 bg-black text-white text-xs font-bold px-3 py-1.5 rounded-md shadow-md z-20">
                       {vehicle.price}

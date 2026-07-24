@@ -157,65 +157,65 @@ export default function Header() {
             </button>
           </div>
         </div>
-      </header>
 
-      {/* Mobile Menu Drawer */}
-      <AnimatePresence>
-        {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-x-0 top-[72px] z-40 bg-white shadow-medium border-t border-slate-100 py-6 px-5 lg:hidden flex flex-col gap-5"
-          >
-            <div className="flex flex-col gap-4">
-              {navLinks.map((link, index) => {
-                const isActive = index === activeIndex;
-                return (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    onClick={(e) => handleScrollTo(e, link.href)}
-                    className={`font-medium py-2 border-b border-slate-50 text-base transition-colors ${
-                      isActive
-                        ? "text-accent-500 border-l-2 border-l-accent-500 pl-3"
-                        : "text-primary-900"
-                    }`}
-                  >
-                    {link.name}
-                  </a>
-                );
-              })}
-            </div>
-            <div className="flex flex-col gap-3 mt-2">
-              <a
-                href={`tel:${siteConfig.phone}`}
-                className="flex items-center justify-center gap-2 border border-slate-200 py-3 rounded-btn text-primary-900 font-semibold"
-              >
-                <Phone className="w-5 h-5 text-accent-500" />
-                <span>Call {siteConfig.phoneDisplay}</span>
-              </a>
-              <a
-                href={`https://wa.me/${siteConfig.whatsapp.replace("+", "")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 border border-emerald-500 py-3 rounded-btn text-emerald-600 font-semibold"
-              >
-                <WhatsAppIcon className="w-5 h-5 text-emerald-500" />
-                <span>Chat on WhatsApp</span>
-              </a>
-              <a
-                href="#booking-form"
-                onClick={(e) => handleScrollTo(e, "#booking-form")}
-                className="bg-accent-500 text-white text-center py-3.5 rounded-btn font-semibold shadow-glow"
-              >
-                Book Now
-              </a>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+        {/* Mobile Menu Drawer */}
+        <AnimatePresence>
+          {isMobileMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+              className="absolute inset-x-0 top-full z-40 bg-white shadow-medium border-t border-slate-100 py-6 px-5 lg:hidden flex flex-col gap-5"
+            >
+              <div className="flex flex-col gap-4">
+                {navLinks.map((link, index) => {
+                  const isActive = index === activeIndex;
+                  return (
+                    <a
+                      key={link.name}
+                      href={link.href}
+                      onClick={(e) => handleScrollTo(e, link.href)}
+                      className={`font-medium py-2 border-b border-slate-50 text-base transition-colors ${
+                        isActive
+                          ? "text-accent-500 border-l-2 border-l-accent-500 pl-3"
+                          : "text-primary-900"
+                      }`}
+                    >
+                      {link.name}
+                    </a>
+                  );
+                })}
+              </div>
+              <div className="flex flex-col gap-3 mt-2">
+                <a
+                  href={`tel:${siteConfig.phone}`}
+                  className="flex items-center justify-center gap-2 border border-slate-200 py-3 rounded-btn text-primary-900 font-semibold"
+                >
+                  <Phone className="w-5 h-5 text-accent-500" />
+                  <span>Call {siteConfig.phoneDisplay}</span>
+                </a>
+                <a
+                  href={`https://wa.me/${siteConfig.whatsapp.replace("+", "")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 border border-emerald-500 py-3 rounded-btn text-emerald-600 font-semibold"
+                >
+                  <WhatsAppIcon className="w-5 h-5 text-emerald-500" />
+                  <span>Chat on WhatsApp</span>
+                </a>
+                <a
+                  href="#booking-form"
+                  onClick={(e) => handleScrollTo(e, "#booking-form")}
+                  className="bg-accent-500 text-white text-center py-3.5 rounded-btn font-semibold shadow-glow"
+                >
+                  Book Now
+                </a>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </header>
     </>
   );
 }

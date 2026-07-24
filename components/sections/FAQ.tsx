@@ -15,7 +15,7 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-24 bg-white scroll-mt-20">
+    <section id="faq" className="py-16 sm:py-24 bg-white scroll-mt-20">
       <div className="container-custom">
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto mb-16">

@@ -32,7 +32,7 @@ export default function BookingSteps() {
   ];
 
   return (
-    <section className="py-24 bg-slate-50 scroll-mt-20">
+    <section className="py-16 sm:py-24 bg-slate-50 scroll-mt-20">
       <div className="container-custom">
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto mb-20">

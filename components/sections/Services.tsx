@@ -37,7 +37,7 @@ export default function Services() {
   };
 
   return (
-    <section id="services" className="relative overflow-hidden bg-white py-24 scroll-mt-20">
+    <section id="services" className="relative overflow-hidden bg-white py-16 sm:py-24 scroll-mt-20">
       {/* Soft ambient glow for depth */}
       <div className="pointer-events-none absolute -top-20 left-1/2 h-[420px] w-[720px] -translate-x-1/2 rounded-full bg-accent-100/40 blur-3xl" />
 

@@ -29,11 +29,11 @@ export default function AirportService() {
   )}`;
 
   return (
-    <section id="airport" className="py-24 bg-white scroll-mt-20">
+    <section id="airport" className="py-16 sm:py-24 bg-white scroll-mt-20">
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Content */}
-          <div className="order-2 lg:order-1">
+          <div className="lg:order-1">
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -108,7 +108,7 @@ export default function AirportService() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="relative rounded-card overflow-hidden shadow-medium bg-gradient-to-br from-sky-900 to-slate-900 min-h-[360px] flex items-end order-1 lg:order-2"
+            className="relative rounded-card overflow-hidden shadow-medium bg-gradient-to-br from-sky-900 to-slate-900 min-h-[360px] flex items-end lg:order-2"
           >
             <div className="absolute -top-12 -left-12 w-48 h-48 bg-sky-400/15 rounded-full blur-2xl" />
             {/* eslint-disable-next-line @next/next/no-img-element */}

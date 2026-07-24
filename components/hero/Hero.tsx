@@ -49,7 +49,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-primary-950 tracking-tight leading-[1.1] mb-6"
+            className="text-3xl sm:text-5xl lg:text-6xl font-heading font-bold text-primary-950 tracking-tight leading-[1.1] mb-6"
           >
             Self Drive Car Rental in <span className="text-accent-500">Bhopal</span> – Book Reliable Cars in Minutes
           </motion.h1>
@@ -59,7 +59,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-slate-600 text-lg sm:text-xl leading-relaxed mb-8 max-w-xl"
+            className="text-slate-600 text-base sm:text-xl leading-relaxed mb-6 sm:mb-8 max-w-xl"
           >
             Choose from verified self-drive cars, taxis, airport transfers and outstation vehicles with quick booking, transparent pricing and dedicated customer support.
           </motion.p>
@@ -69,12 +69,12 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="flex flex-wrap items-center gap-4 w-full sm:w-auto"
+            className="flex flex-col sm:flex-row items-center gap-3.5 w-full sm:w-auto"
           >
             <a
               href="#booking-form"
               onClick={handleScrollToForm}
-              className="bg-accent-500 hover:bg-accent-600 text-white font-bold px-8 py-4 rounded-btn shadow-glow transition-all active:scale-[0.99] text-center w-full sm:w-auto"
+              className="bg-accent-500 hover:bg-accent-600 text-white font-bold px-8 py-3.5 rounded-btn shadow-glow transition-all active:scale-[0.99] text-center w-full sm:w-auto text-sm sm:text-base"
             >
               Book Your Ride
             </a>
@@ -82,14 +82,14 @@ export default function Hero() {
               href={`https://wa.me/${siteConfig.whatsapp.replace("+", "")}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 border border-emerald-500 hover:bg-emerald-50 text-emerald-600 font-bold px-7 py-4 rounded-btn transition-colors text-center w-full sm:w-auto"
+              className="flex items-center justify-center gap-2 border border-emerald-500 hover:bg-emerald-50 text-emerald-600 font-bold px-7 py-3.5 rounded-btn transition-colors text-center w-full sm:w-auto text-sm sm:text-base"
             >
               <WhatsAppIcon className="w-5 h-5 text-emerald-500 shrink-0" />
               <span>Chat on WhatsApp</span>
             </a>
             <a
               href={`tel:${siteConfig.phone}`}
-              className="flex items-center justify-center gap-2 text-primary-900 hover:text-accent-500 font-bold py-3 px-4 transition-colors w-full sm:w-auto"
+              className="flex items-center justify-center gap-2 text-primary-900 hover:text-accent-500 font-bold py-2.5 px-4 transition-colors w-full sm:w-auto text-sm sm:text-base"
             >
               <Phone className="w-5 h-5 text-accent-500" />
               <span>Call {siteConfig.phoneDisplay}</span>
