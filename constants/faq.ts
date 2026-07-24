@@ -34,6 +34,7 @@ export const FAQS: FAQItem[] = [
     answer: "Our team processes requests instantly. You will receive a WhatsApp message or a call back with pricing and vehicle allocation within 5-10 minutes during working hours.",
   },
 ];
+
 export const TESTIMONIALS = [
   {
     name: "Aman Sharma",
@@ -42,7 +43,7 @@ export const TESTIMONIALS = [
     rating: 5,
     comment: "Booked an Ertiga for a family trip to Sanchi. The booking process was smooth and the vehicle was clean. Transparent pricing with no hidden charges.",
     purpose: "Family Road Trip",
-    imageName: "customer1.webp"
+    imageName: "customer1.jpg",
   },
   {
     name: "Vikram Patel",
@@ -51,15 +52,33 @@ export const TESTIMONIALS = [
     rating: 5,
     comment: "Airport pickup from Raja Bhoj Airport was perfectly on time. The driver was extremely professional and the ride was comfortable. Highly recommended.",
     purpose: "Airport Transfer",
-    imageName: "customer2.webp"
+    imageName: "customer2.jpg",
   },
   {
     name: "Rajesh Kumar",
     city: "Bhopal",
-    vehicle: "Mahindra Scorpio-N",
+    vehicle: "Mahindra Scorpio",
     rating: 5,
     comment: "Booked a self-drive Scorpio for a weekend trip to Pachmarhi. Everything was exactly as promised. The car was in top notch condition.",
     purpose: "Weekend Getaway",
-    imageName: "customer3.webp"
-  }
+    imageName: "customer3.jpg",
+  },
+  {
+    name: "Dinesh Singh",
+    city: "Bhopal",
+    vehicle: "Maruti Dzire",
+    rating: 5,
+    comment: "Excellent service. Renting a self-drive Dzire was hassle-free. The car was clean and fuel-efficient. Highly satisfied!",
+    purpose: "Local Business",
+    imageName: "customer4.jpg",
+  },
+  {
+    name: "Sanjay Verma",
+    city: "Bhopal",
+    vehicle: "Hyundai Creta",
+    rating: 5,
+    comment: "Loved the Creta experience. The car ran smoothly on our highway trip to Ujjain. 24/7 support answered our queries instantly.",
+    purpose: "Outstation Tour",
+    imageName: "customer5.jpg",
+  },
 ];

@@ -74,10 +74,19 @@ export default function Testimonials() {
 
                 {/* Customer Info Strip */}
                 <div className="flex items-center gap-3.5 pt-6 border-t border-slate-50 mt-auto">
-                  {/* Avatar Initials Gradient */}
-                  <div className={`w-11 h-11 rounded-full bg-gradient-to-br ${colors[index % colors.length]} flex items-center justify-center text-white font-bold text-sm tracking-wider shrink-0 shadow-soft`}>
-                    {getInitials(t.name)}
-                  </div>
+                  {/* Customer Photo or Initials Gradient */}
+                  {t.imageName ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={`/${t.imageName}`}
+                      alt={t.name}
+                      className="w-11 h-11 rounded-full object-cover shrink-0 shadow-soft"
+                    />
+                  ) : (
+                    <div className={`w-11 h-11 rounded-full bg-gradient-to-br ${colors[index % colors.length]} flex items-center justify-center text-white font-bold text-sm tracking-wider shrink-0 shadow-soft`}>
+                      {getInitials(t.name)}
+                    </div>
+                  )}
                   <div>
                     <h4 className="font-heading font-bold text-primary-950 text-sm leading-snug">
                       {t.name}
