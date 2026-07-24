@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { siteConfig } from "@/config/site";
+import { supabase } from "@/config/supabase";
 import { X, Loader2, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -47,11 +48,31 @@ export default function InquiryModal({ isOpen, onClose, carName, carPrice }: Inq
 
   const onSubmit = async (data: InquiryFormData) => {
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setIsSubmitting(false);
+    try {
+      const { error } = await supabase.from("inquiries").insert([
+        {
+          full_name: data.fullName,
+          mobile: data.mobile,
+          service_type: data.serviceType,
+          from_date: data.fromDate,
+          to_date: data.toDate,
+          message: data.message || null,
+          car_name: carName,
+          car_price: carPrice,
+        },
+      ]);
 
-    // Format WhatsApp message
-    const waText = `Hello,
+      if (error) {
+        console.error("Error inserting inquiry:", error);
+        alert("Failed to save inquiry. Please try again.");
+        setIsSubmitting(false);
+        return;
+      }
+
+      setIsSubmitting(false);
+
+      // Format WhatsApp message
+      const waText = `Hello,
 
 I want to inquire about a car booking.
 
@@ -66,12 +87,17 @@ Message: ${data.message || "No additional message"}
 
 Please confirm availability.`;
 
-    const encodedMsg = encodeURIComponent(waText);
-    const waUrl = `https://wa.me/${siteConfig.whatsapp.replace("+", "")}?text=${encodedMsg}`;
+      const encodedMsg = encodeURIComponent(waText);
+      const waUrl = `https://wa.me/${siteConfig.whatsapp.replace("+", "")}?text=${encodedMsg}`;
 
-    window.open(waUrl, "_blank");
-    reset();
-    onClose();
+      window.open(waUrl, "_blank");
+      reset();
+      onClose();
+    } catch (error) {
+      console.error("Error submitting inquiry:", error);
+      alert("An unexpected error occurred. Please try again.");
+      setIsSubmitting(false);
+    }
   };
 
   return (

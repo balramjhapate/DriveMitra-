@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { siteConfig } from "@/config/site";
+import { supabase } from "@/config/supabase";
 import { VEHICLES } from "@/constants/vehicles";
 import { SERVICES } from "@/constants/services";
 import { Check, Loader2 } from "lucide-react";
@@ -38,17 +39,34 @@ export default function BookingForm() {
 
   const onSubmit = async (data: BookingFormData) => {
     setIsSubmitting(true);
-    // Simulate API delay
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setIsSubmitting(false);
-    setIsSuccess(true);
+    try {
+      const { error } = await supabase.from("bookings").insert([
+        {
+          name: data.name,
+          phone: data.phone,
+          service: data.service,
+          vehicle: data.vehicle,
+          from_date: data.fromDate,
+          to_date: data.toDate,
+        },
+      ]);
 
-    // Get vehicle seats for WhatsApp template
-    const selectedVehicle = VEHICLES.find((v) => v.name === data.vehicle);
-    const seats = selectedVehicle ? `${selectedVehicle.seats} Seater` : "5 Seater";
+      if (error) {
+        console.error("Error inserting booking:", error);
+        alert("Failed to save booking. Please try again.");
+        setIsSubmitting(false);
+        return;
+      }
 
-    // Format WhatsApp message
-    const waText = `Hello,
+      setIsSubmitting(false);
+      setIsSuccess(true);
+
+      // Get vehicle seats for WhatsApp template
+      const selectedVehicle = VEHICLES.find((v) => v.name === data.vehicle);
+      const seats = selectedVehicle ? `${selectedVehicle.seats} Seater` : "5 Seater";
+
+      // Format WhatsApp message
+      const waText = `Hello,
 
 I would like to book a vehicle.
 
@@ -63,15 +81,20 @@ Phone: ${data.phone}
 
 Please share availability.`;
 
-    const encodedMsg = encodeURIComponent(waText);
-    const waUrl = `https://wa.me/${siteConfig.whatsapp.replace("+", "")}?text=${encodedMsg}`;
+      const encodedMsg = encodeURIComponent(waText);
+      const waUrl = `https://wa.me/${siteConfig.whatsapp.replace("+", "")}?text=${encodedMsg}`;
 
-    // Redirect to WhatsApp after 2 seconds
-    setTimeout(() => {
-      window.open(waUrl, "_blank");
-      setIsSuccess(false);
-      reset();
-    }, 2000);
+      // Redirect to WhatsApp after 2 seconds
+      setTimeout(() => {
+        window.open(waUrl, "_blank");
+        setIsSuccess(false);
+        reset();
+      }, 2000);
+    } catch (error) {
+      console.error("Error submitting booking:", error);
+      alert("An unexpected error occurred. Please try again.");
+      setIsSubmitting(false);
+    }
   };
 
   return (
