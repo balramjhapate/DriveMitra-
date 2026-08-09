@@ -15,14 +15,13 @@ export default function Footer() {
     { name: "Monthly Rental", href: "#services" },
   ];
 
-  const locations = [
-    { name: "MP Nagar", href: "#locations" },
-    { name: "Habibganj", href: "#locations" },
-    { name: "Bhopal Airport", href: "#locations" },
-    { name: "Arera Colony", href: "#locations" },
-    { name: "Kolar Road", href: "#locations" },
-    { name: "Shahpura", href: "#locations" },
-    { name: "New Market", href: "#locations" },
+  const seoLinks = [
+    { name: "Ertiga on Rent in Bhopal", href: "/ertiga-on-rent-bhopal" },
+    { name: "Self Drive Car Rental Bhopal", href: "/" },
+    { name: "Bhopal Airport Car Rental", href: "/bhopal-airport-car-rental" },
+    { name: "RKMP Car Rental", href: "/rkmp-station-car-rental" },
+    { name: "7 Seater Car Rental Bhopal", href: "/7-seater-car-rental-bhopal" },
+    { name: "Automatic Car Rental Bhopal", href: "/automatic-car-rental-bhopal" },
   ];
 
   return (
@@ -63,11 +62,11 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Column 3: Locations */}
+        {/* Column 3: SEO Links */}
         <div className="flex flex-col gap-4">
-          <h3 className="text-white font-heading font-bold text-sm tracking-wider uppercase">Serving Across Bhopal</h3>
+          <h3 className="text-white font-heading font-bold text-sm tracking-wider uppercase">Popular Searches</h3>
           <ul className="flex flex-col gap-2.5 text-sm">
-            {locations.map((item) => (
+            {seoLinks.map((item) => (
               <li key={item.name}>
                 <a href={item.href} className="hover:text-white transition-colors">
                   {item.name}

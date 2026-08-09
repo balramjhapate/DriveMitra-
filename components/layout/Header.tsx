@@ -114,11 +114,11 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href={`tel:${siteConfig.phone}`}
-              className="flex items-center gap-2 text-primary-900 hover:text-accent-500 font-semibold transition-colors text-sm"
-              aria-label="Call support"
+              className="flex items-center gap-2 border border-accent-500/20 bg-accent-50 text-accent-700 hover:bg-accent-100 px-4 py-2 rounded-btn font-medium transition-all text-sm"
+              aria-label="Call Now"
             >
-              <Phone className="w-4 h-4 text-accent-500" />
-              <span>{siteConfig.phoneDisplay}</span>
+              <Phone className="w-4 h-4 text-accent-600" />
+              <span>Call Now</span>
             </a>
             <a
               href={`https://wa.me/${siteConfig.whatsapp.replace("+", "")}`}

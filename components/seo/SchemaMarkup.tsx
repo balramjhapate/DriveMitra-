@@ -1,5 +1,4 @@
 import { siteConfig } from "@/config/site";
-import { FAQS } from "@/constants/faq";
 import { SERVICES } from "@/constants/services";
 
 export default function SchemaMarkup() {
@@ -62,35 +61,7 @@ export default function SchemaMarkup() {
     },
   };
 
-  // 3. FAQPage Schema
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": FAQS.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer,
-      },
-    })),
-  };
-
-  // 4. Breadcrumb Schema
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": siteConfig.url,
-      },
-    ],
-  };
-
-  // 5. Service Schemas
+  // 3. Service Schemas
   const serviceSchemas = SERVICES.map((service) => ({
     "@context": "https://schema.org",
     "@type": "Service",
@@ -116,14 +87,6 @@ export default function SchemaMarkup() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {serviceSchemas.map((schema, index) => (
         <script
