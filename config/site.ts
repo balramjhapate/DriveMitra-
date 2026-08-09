@@ -11,7 +11,7 @@ export const siteConfig = {
   googleMapsUrl: "https://maps.google.com",
   rating: "4.8",
   ratingCount: "2,450",
-  url: "https://bhopal.drivemitra.com",
+  url: "https://drive-mitra-lake.vercel.app",
   metaTitle: "Self Drive Car in Bhopal | Self Drive Car Rental Bhopal | Drive Mitra",
   metaDescription: "Book self drive cars in Bhopal without driver. Ertiga, SUV and automatic cars available for hourly, daily and weekend rental.",
 };
